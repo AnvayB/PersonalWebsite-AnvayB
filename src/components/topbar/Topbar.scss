@@ -28,21 +28,23 @@
         
       }
 
-      .itemContainer a {
-        display: flex;
-      }
+     
       .itemContainer {
         display: flex;
         align-items: center;
         margin-left: 30px;
         margin-top: 5px;
-        // text-decoration: none;
-        // color: $mainColor;
-        
-        .icon {
-          font-size: 18px;
-          margin-right: 5px;
-        }
+        flex-direction: column;
+        justify-content: space-between;
+
+          .icon {
+            font-size: 20px;
+            margin-right: 5px;
+          }
+          span {
+            font-size: 10px;
+            margin-top: 10px;
+          }
         
       }
      

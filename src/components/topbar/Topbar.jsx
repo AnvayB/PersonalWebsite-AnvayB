@@ -5,9 +5,9 @@ import {
 import Spotify from '../../images/Spotify.png'
 
 
-export default function Topbar() {
+export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
-    <div className={'topbar active'}>
+    <div className={"topbar " + (menuOpen && "active") }>
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">AnvayB</a>
@@ -15,31 +15,37 @@ export default function Topbar() {
           {/* <a target="_blank" href="https://www.instagram.com/anvayzing/"> */}
             <div className="itemContainer">
             <Instagram className='icon'/>
+            <span>@anvayzing</span>
           </div>
           {/* </a> */}
 
           {/* <a target="_blank" href="https://www.linkedin.com/in/anvayb/"> */}
             <div className="itemContainer">
           <LinkedIn className='icon'/>
+          <span>anvayb</span>
+          
           </div>
           {/* </a> */}
 
           {/* <a target="_blank" href="https://github.com/AnvayB"> */}
             <div className="itemContainer">
           <GitHub className='icon'/>
+          <span>AnvayB</span>
           </div>
           {/* </a> */}
 
           {/* <a target="_blank" href="https://open.spotify.com/user/22yytji6kwymjgjkrxficzvay?si=ef7d34a5c9f84f3c"> */}
-            <div className="itemContainer">
-          <PlayCircleOutline className="icon" />
+            {/* <div className="itemContainer"> */}
+          {/* <PlayCircleOutline className="icon" /> */}
             {/* <img src={Spotify} alt="" className="icon" width={'18px'}/> */}
-          </div>
+          {/* </div> */}
           {/* </a> */}
    
         </div>
         <div className="right">
-          <div className="hamburger">
+          <div className="hamburger" onClick={() => {
+            setMenuOpen(!menuOpen)
+          }}>
             <span className="line1"></span>
             <span className="line2"></span>
             <span className="line3"></span>
