@@ -80,7 +80,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - photo
 - scrolling text
 - basic contact info -> icons for social media (Insta, LinkedIn, Github, Spotify)
-  - review Spotify playlists before including link
+  - Done, might need to resize bigger later
+  - **review Spotify playlists before including link**
 
 ## Page 2: Portfolio
 - Featured -> Education
