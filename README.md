@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,41 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+# Notes:
+
+<!-- make sure to cover main points from [this](https://jonathanlu.herokuapp.com/) -->
+
+## Page 1: Intro
+- title [upper left corner] (optional)
+- name
+- message
+- photo
+- scrolling text
+- basic contact info -> icons for social media (Insta, LinkedIn, Github, Spotify)
+  - review Spotify playlists before including link
+
+## Page 2: Portfolio
+- Featured -> Education
+  - MHS
+  - Code Fellows
+  - SJSU
+- Web App -> Work Experience
+  - Success Learning Center
+  - RippleMatch
+  - Prismatic
+- Mobile App -> Projects
+  - 
+- Design -> Languages + Tools (include spoken languages as well) (maybe just languages)
+- Content -> Hobbies/Interests
+
+## Page 3: Projects
+- iSky
+- Code Cocktails
+
+# Page 4: Recommendations (w/ LinkedIn icon links)
+- Sambprasad
+- Diego
+
+# Page 5: Contact Me (use Email.js)
