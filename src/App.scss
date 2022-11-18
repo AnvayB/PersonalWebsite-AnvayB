@@ -7,6 +7,7 @@
     background-color: lightsalmon;
     position: relative;
     top: 70px;
+    scroll-behavior: smooth; //smooth & slower scroll
     scroll-snap-type: y mandatory; //makes vertical scrolling adhere to sections
     &::-webkit-scrollbar {
       display: none;
