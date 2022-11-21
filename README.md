@@ -109,6 +109,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - fun facts and stuff idk
 
 ## Page 3: Projects
+```md
+Components: 
+- Icon
+- Title
+- Description
+- Link
+```
   - iSky
   - Code Cocktails
   - OpenWeatherMap app
