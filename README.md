@@ -89,7 +89,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - Code Fellows
   - SJSU
 - Web App -> Work Experience
-  - Success Learning Center
+  - Success Learning Center; subtitle: # of months
   - RippleMatch
   - Prismatic
 - Mobile App -> Projects
