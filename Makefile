@@ -2,6 +2,8 @@ add:
 	git status
 	git add .
 
+# git commit -m "message"
+
 trials:
 	git push origin trials
 
