@@ -93,16 +93,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - RippleMatch
   - Prismatic
 - Mobile App -> Projects
-  - 
+  - delete this one
 - Design -> Languages + Tools (include spoken languages as well) (maybe just languages)
+  - JS
+  - HTML
+  - CSS/SCSS
+  - React.js
+  - Python
+  - Java
+  - MySQL
+  - Git/Github
+  - Adobe Photoshop/Lightroom/XD
+  - Z Shell (zsh)
 - Content -> Hobbies/Interests
+  - fun facts and stuff idk
 
 ## Page 3: Projects
-- iSky
-- Code Cocktails
-
+  - iSky
+  - Code Cocktails
+  - OpenWeatherMap app
+  - Github page
 # Page 4: Recommendations (w/ LinkedIn icon links)
 - Sambprasad
 - Diego
 
 # Page 5: Contact Me (use Email.js)
+- learn from lama dev other tutorial
