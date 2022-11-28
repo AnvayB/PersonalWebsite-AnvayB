@@ -38,6 +38,10 @@
         flex-direction: column;
         justify-content: space-between;
 
+        @include mobile {
+          display: none;
+        }
+
           .icon {
             font-size: 20px;
             margin-right: 5px;
