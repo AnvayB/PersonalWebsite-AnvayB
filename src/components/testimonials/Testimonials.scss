@@ -89,6 +89,7 @@
         padding: 10px;
         border-radius: 10px;
         background-color: rgb(250, 244, 245);
+        text-align: center;
 
         @include mobile {
           font-size: 12px;
@@ -110,8 +111,13 @@
         }
       }
       h4 {
-        color: gray;
+        color: rgb(74, 73, 73);
         font-size: 13px;
+      }
+      h5 {
+        color: grey;
+        font-size: 12px;
+        margin-top: 5px;
       }
     }
   }

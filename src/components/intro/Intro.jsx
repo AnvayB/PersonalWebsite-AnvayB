@@ -4,7 +4,6 @@ import down from '../../images/down.png'
 import { init } from 'ityped';
 import { useEffect, useRef } from 'react';
 
-//switch left and right classes later so that face is on right side
 
 export default function Intro() {
 
