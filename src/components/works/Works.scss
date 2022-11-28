@@ -73,8 +73,6 @@
               align-items: center;
               justify-content: center;
 
-
-
               img {
                 width: 25px;
 
@@ -83,6 +81,19 @@
             }
 
           }
+        }
+        h2 {
+          font-size: 20px;
+
+        }
+        p {
+          font-size: 13px;
+        }
+        span {
+          font-size: 12px;
+          font-weight: 600;
+          text-decoration: underline;
+          cursor: pointer;
         }
 
         .right {
@@ -99,6 +110,7 @@
             transform: rotate(-10deg);
           }
         }
+        
       }
     }
   }
