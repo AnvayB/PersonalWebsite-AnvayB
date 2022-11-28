@@ -10,20 +10,20 @@ export default function Intro() {
 
   const textRef = useRef();
 
-  // useEffect(() => {
-  //   init(textRef.current, {
-  //     showCursor: true,
-  //     strings: [
-  //       "Software Engineer",
-  //       "Web Developer",
-  //       "React.js Developer",
-  //       "Photographer",
-  //       "Avid Music Lover",
-  //       "Cinephile",
-  //       "Food and Travel Enthusiast"
-  //     ],
-  //   })
-  // }, [])
+  useEffect(() => {
+    init(textRef.current, {
+      showCursor: true,
+      strings: [
+        "Software Engineer",
+        "Web Developer",
+        "React.js Developer",
+        "Photographer",
+        "Avid Music Lover",
+        "Cinephile",
+        "Food and Travel Enthusiast"
+      ],
+    })
+  }, [])
   
 
   return (
