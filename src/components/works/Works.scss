@@ -12,6 +12,12 @@
     position: absolute;
     cursor: pointer;
 
+    @include mobile {
+      // display: none;
+      margin-top: 130%;
+
+    }
+
 
     &.left {
       left: 100px;
@@ -30,6 +36,11 @@
     left: 0;
     transition: all 1s ease-out;
 
+    @include mobile {
+      height: 100vw;
+      justify-content: center;
+      // flex-direction: column;
+    }
 
 
     .container {
@@ -47,6 +58,11 @@
         align-items: center;
         justify-content: center;
 
+        @include mobile {
+          width: 90%;
+          height: 90%;
+          margin: 20px 0;
+        }
 
 
         .left {
@@ -73,8 +89,6 @@
               align-items: center;
               justify-content: center;
 
-
-
               img {
                 width: 25px;
 
@@ -83,6 +97,24 @@
             }
 
           }
+        }
+        h2 {
+          font-size: 20px;
+
+        }
+        p {
+          font-size: 13px;
+//potential: 
+          // @include mobile {
+          //   display: none;
+          // }
+//and then reduce height of project
+        }
+        span {
+          font-size: 12px;
+          font-weight: 600;
+          text-decoration: underline;
+          cursor: pointer;
         }
 
         .right {
@@ -99,6 +131,7 @@
             transform: rotate(-10deg);
           }
         }
+        
       }
     }
   }

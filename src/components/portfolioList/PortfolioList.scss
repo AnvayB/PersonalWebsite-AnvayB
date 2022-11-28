@@ -8,6 +8,10 @@
   cursor: pointer;
   transition: all .5s ease;
 
+  @include mobile {
+    margin-right: 35px;
+  }
+
   &.active {
     background-color: $mainColor;
     color: white;

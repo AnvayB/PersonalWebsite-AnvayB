@@ -115,6 +115,7 @@ Components:
 - Title
 - Description
 - Link
+- *Note: Increase arrow div to span the hieght of the page*
 ```
   - iSky
   - Code Cocktails
@@ -125,4 +126,4 @@ Components:
 - Diego
 
 # Page 5: Contact Me (use Email.js)
-- learn from lama dev other tutorial
+- learn from lama dev [tutorial](https://youtu.be/hQjlM-8C4Ps?t=2995)
