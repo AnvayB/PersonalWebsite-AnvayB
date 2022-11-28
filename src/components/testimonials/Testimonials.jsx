@@ -7,34 +7,27 @@ export default function Testimonials() {
   const data = [
     {
       id: 1,
-      name: "Tom Durden",
-      title: "Senior Developer",
+      name: "Diego Fierst Garcia",
+      title: "Campus Operations Manager",
+      company: "RippleMatch",
       img:
-        "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://media-exp1.licdn.com/dms/image/C4E03AQGmzq3jFPXJqg/profile-displayphoto-shrink_200_200/0/1614100631832?e=1675296000&v=beta&t=sQZ0qymlkIi1xsaalsyXK6XFiXdlH5JYj4lmFSpYiUo",
       icon: linkedin,
+      link: "https://www.linkedin.com/in/diego-fierst-garcia/",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+        "Anvay was on my team for about 3 months, and it was a very pleasant experience. Anvay always came to our meetings prepared and ready to go, which is important to foster a positive and productive team environment. He is communicative in his approach, which I appreciate as I believe that any professional should be a clear and transparent communicator. He is also feedback-driven and constantly wants to progress. ",
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
+      name: "Sambprasad Kuvalekar",
+      title: "Founder and Managing Director",
+      company: "Prismatic Softwares Pvt. Ltd.",
       img:
-        "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://media-exp1.licdn.com/dms/image/D4D35AQE3h9PEl4zzhw/profile-framedphoto-shrink_200_200/0/1668430556706?e=1670274000&v=beta&t=V3qafbxluKm_WbaHbY4ku0Lu9CdFdI254gjKbYEwz_s",
       icon: linkedin,
+      link: "https://www.linkedin.com/in/sambprasad/",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
-      featured: true,
-    },
-    {
-      id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
-      img:
-        "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: linkedin,
-      desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        "Anvay is a very sincere and smart programmer. His disciplined approach and never say die attitude will help him grow exponentially in his career. All the best Anvay !",
     },
   ];
 
@@ -48,7 +41,7 @@ export default function Testimonials() {
 
             <img src={rArrow} className="left" alt="" />
             <img src={d.img} className='user' alt="" />
-            <img src={linkedin} className="right" alt="" />
+            <a target="_blank" rel='noopener noreferrer' href={d.link}><img src={linkedin} className="right" alt="" /></a>
 
           </div>
           <div className="center">
@@ -57,6 +50,7 @@ export default function Testimonials() {
           <div className="bottom">
             <h3>{d.name}</h3>
             <h4>{d.title}</h4>
+            <h5>{d.company}</h5>
           </div>
         </div>
         ))}
