@@ -15,7 +15,7 @@ export default function Testimonials() {
       icon: linkedin,
       link: "https://www.linkedin.com/in/diego-fierst-garcia/",
       desc:
-        "Anvay was on my team for about 3 months, and it was a very pleasant experience. Anvay always came to our meetings prepared and ready to go, which is important to foster a positive and productive team environment. He is communicative in his approach, which I appreciate as I believe that any professional should be a clear and transparent communicator. He is also feedback-driven and constantly wants to progress. ",
+        "Anvay was on my team for about 3 months, and it was a very pleasant experience. Anvay always came to our meetings prepared and ready to go, which is important to foster a positive",
     },
     {
       id: 2,
@@ -36,7 +36,8 @@ export default function Testimonials() {
       <h1>Testimonials</h1>
       <div className="container">
         {data.map(d => (
-          <div className={d.featured ? "card featured" : "card"}>
+          <div className="card">
+            {/* {d.featured ? "card featured" : "card"} */}
           <div className="top">
 
             <img src={rArrow} className="left" alt="" />
@@ -45,7 +46,9 @@ export default function Testimonials() {
 
           </div>
           <div className="center">
-            {d.desc}
+            {d.desc}...
+            <br />
+            <a target="_blank" rel='noopener noreferrer' className='recoLink' href="https://www.linkedin.com/in/anvayb/details/recommendations/">Read More</a>
           </div>
           <div className="bottom">
             <h3>{d.name}</h3>
