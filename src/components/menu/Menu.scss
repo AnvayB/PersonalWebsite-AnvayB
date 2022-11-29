@@ -13,6 +13,8 @@
   align-items: center;
   justify-content: center;
   transition: all 1s ease;
+  // Testimonials
+  // Recommendations
 
   &.active{
     right: 0;
@@ -35,6 +37,7 @@
         font-size: inherit;
         color: inherit;
         text-decoration: none;
+        
       }
 
       &:hover {

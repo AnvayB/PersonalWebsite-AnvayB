@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import {
   featuredPortfolio,
   webPortfolio,
-  mobilePortfolio,
+  //mobilePortfolio,
   designPortfolio,
   contentPortfolio,
 } from "../../data";
@@ -15,19 +15,19 @@ export default function Portfolio() {
   const list = [
     {
       id: "featured",
-      title: "Featured",
+      title: "Education",
     },
     {
       id: "web",
-      title: "Web App",
+      title: "Work Experience",
     },
-    {
-      id: "mobile",
-      title: "Mobile App",
-    },
+    // {
+    //   id: "mobile",
+    //   title: "Mobile App",
+    // },
     {
       id: "design",
-      title: "Design",
+      title: "Languages + Tools",
     },
     {
       id: "content",
@@ -43,9 +43,9 @@ export default function Portfolio() {
       case "web":
         setData(webPortfolio);
         break;
-      case "mobile":
-        setData(mobilePortfolio);
-        break;
+      // case "mobile":
+      //   setData(mobilePortfolio);
+      //   break;
       case "design":
         setData(designPortfolio);
         break;
@@ -78,6 +78,7 @@ export default function Portfolio() {
               alt=""
             />
             <h3>{d.title}</h3>
+            <h4>{d.dates}</h4>
           </div>
         ))}
       </div>

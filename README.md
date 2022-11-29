@@ -83,27 +83,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - Done, might need to resize bigger later
   - **review Spotify playlists before including link**
 
-## Page 2: Portfolio
+## Page 2: Portfolio 
+```md
+- _make all images into logos_
+- _change all id values_
+```
 - Featured -> Education
-  - MHS
-  - Code Fellows
-  - SJSU
+  - MHS ✅
+  - Code Fellows -> _fade issue on hover_
+  - SJSU ✅
 - Web App -> Work Experience
-  - Success Learning Center; subtitle: # of months
-  - RippleMatch
-  - Prismatic
-- Mobile App -> Projects
+  - Success Learning Center ✅
+  - RippleMatch ✅
+  - Prismatic ✅
+- Mobile App -> Projects ✅
   - delete this one
+ 
 - Design -> Languages + Tools (include spoken languages as well) (maybe just languages)
-  - JS
-  - HTML
-  - CSS/SCSS
-  - React.js
-  - Python
+  - JS ✅
+  - HTML ✅
+  - CSS/SCSS ✅
+  - React.js ✅
+  - Python ✅
   - Java
   - MySQL
   - Git/Github
-  - Adobe Photoshop/Lightroom/XD
+  - Adobe Photoshop/Lightroom/XD ✅
   - Z Shell (zsh)
 - Content -> Hobbies/Interests
   - fun facts and stuff idk
@@ -122,8 +127,8 @@ Components:
   - OpenWeatherMap app
   - Github page
 # Page 4: Recommendations (w/ LinkedIn icon links)
-- Sambprasad
-- Diego
+- Sambprasad ✅
+- Diego ✅
 
 # Page 5: Contact Me (use Email.js)
 - learn from lama dev [tutorial](https://youtu.be/hQjlM-8C4Ps?t=2995)
