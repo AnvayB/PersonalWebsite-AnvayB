@@ -111,7 +111,7 @@ export const designPortfolio = [
   },
   {
     id: 4,
-    title: "Photoshop, Lightroom, XD",
+    title: "Adobe Photoshop, Lightroom, XD",
     img:
       adobe,
     dates: "+2 years"

@@ -112,20 +112,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - Z Shell (zsh)
 - Content -> Hobbies/Interests
   - fun facts and stuff idk
+  - Good at various racquet sports
+  - Amateur photographer
+  - 
 
 ## Page 3: Projects
 ```md
 Components: 
-- Icon
-- Title
+- Icon ✅
+- Title ✅
 - Description
 - Link
-- *Note: Increase arrow div to span the hieght of the page*
 ```
   - iSky
   - Code Cocktails
   - OpenWeatherMap app
   - Github page
+  _Remove Green and Yellow div coloring when done_
+  - _Fix arrows; `left direction arrow doesn't work`_
 # Page 4: Recommendations (w/ LinkedIn icon links)
 - Sambprasad ✅
 - Diego ✅

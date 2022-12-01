@@ -9,6 +9,7 @@
 
   .arrow {
     height: 50px;
+    
     position: absolute;
     cursor: pointer;
 
@@ -50,7 +51,7 @@
       justify-content: center;
 
       .item {
-        width: 700px;
+        width: 950px;
         height: 100%;
         background-color: white;
         border-radius: 20px;
@@ -90,10 +91,13 @@
               justify-content: center;
 
               img {
-                width: 25px;
+                width: 27px;
 
 
               }
+            }
+            .projectLink {
+              color: black;
             }
 
           }
@@ -127,8 +131,9 @@
           background-color: yellow;
 
           img {
-            width: 400px;
-            transform: rotate(-10deg);
+            // width: 2000px;
+            object-fit: cover;
+            // transform: rotate(-10deg);
           }
         }
         
