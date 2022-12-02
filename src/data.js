@@ -2,6 +2,7 @@ import html from './components/portfolio/portfolioImages/htmlcssjs.png';
 import cf from './components/portfolio/portfolioImages/codefellows.jpeg';
 import adobe from './components/portfolio/portfolioImages/adobe.png';
 import python from './components/portfolio/portfolioImages/python.png'
+import successLC from './components/portfolio/portfolioImages/succesLC.png'
 
 export const featuredPortfolio = [
   {
@@ -43,7 +44,7 @@ export const webPortfolio = [
   {
     id: 3,
     title: "Success Learning Center",
-    img: "http://www.cliveden.com/images/facebook/advindiamag600.png",
+    img: successLC,
     dates: "Jan 2018 - Jun 2018"
   },
 ];
