@@ -71,8 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/075cb6b3-5034-43fa-aec6-017a6518dcb5/deploy-status)](https://app.netlify.com/sites/anvayb/deploys)
 
-[Link](anvayb.netlify.app)
-
 # Notes:
 
 <!-- make sure to cover main points from [this](https://jonathanlu.herokuapp.com/) -->
