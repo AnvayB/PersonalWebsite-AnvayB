@@ -78,14 +78,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <!-- make sure to cover main points from [this](https://jonathanlu.herokuapp.com/) -->
 
 ## Page 1: Intro
-- title [upper left corner] (optional)
-- name
-- message
-- photo
-- scrolling text
-- basic contact info -> icons for social media (Insta, LinkedIn, Github, Spotify)
-  - Done, might need to resize bigger later
+- title [upper left corner] (optional) ✅
+- name ✅
+- message ✅
+- photo ✅
+- scrolling text ✅
+- basic contact info -> icons for social media (Insta, LinkedIn, Github, Spotify) ✅
   - **review Spotify playlists before including link**
+- cahnge favicon.ico into smth else
 <!-- use healing from Lightroom to lessen face blemishes -->
 
 ## Page 2: Portfolio 
