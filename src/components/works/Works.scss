@@ -16,7 +16,8 @@
     @include mobile {
       // display: none;
       margin-top: 130%;
-
+      position: relative;
+      left: 0%;
     }
 
 
@@ -51,7 +52,7 @@
       justify-content: center;
 
       .item {
-        width: 950px;
+        width: 960px;
         height: 100%;
         background-color: white;
         border-radius: 20px;
@@ -72,7 +73,7 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          background-color: green;
+          // background-color: green;
 
           .leftContainer {
             width: 90%;
@@ -128,7 +129,7 @@
           align-items: center;
           justify-content: center;
           overflow: hidden;
-          background-color: yellow;
+          // background-color: yellow;
 
           img {
             // width: 2000px;
