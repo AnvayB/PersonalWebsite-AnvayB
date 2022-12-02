@@ -82,6 +82,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - basic contact info -> icons for social media (Insta, LinkedIn, Github, Spotify)
   - Done, might need to resize bigger later
   - **review Spotify playlists before including link**
+<!-- use healing from Lightroom to lessen face blemishes -->
 
 ## Page 2: Portfolio 
 ```md
@@ -108,6 +109,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - Java/Spring Boot ✅
   - Git/Github ✅
   - Adobe Photoshop/Lightroom/XD ✅
+  - VS Code (2 years)
+  - IntelliJ (1 year)
+  - **organize into langs and tools**
 - Content -> Hobbies/Interests
   - fun facts and stuff idk
   - Good at various racquet sports
