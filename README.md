@@ -86,11 +86,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Page 2: Portfolio 
 ```md
 - _make all images into logos_
-- _change all id values_
+- _change all id values_ ✅
 ```
 - Featured -> Education
   - MHS ✅
-  - Code Fellows -> _fade issue on hover_
+  - Code Fellows -> _fade issue on hover_ ✅
   - SJSU ✅
 - Web App -> Work Experience
   - Success Learning Center ✅
@@ -105,8 +105,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - CSS/SCSS ✅
   - React.js ✅
   - Python ✅
-  - Java/Spring Boot (5 months)
-  - Git/Github
+  - Java/Spring Boot ✅
+  - Git/Github ✅
   - Adobe Photoshop/Lightroom/XD ✅
 - Content -> Hobbies/Interests
   - fun facts and stuff idk
