@@ -1,9 +1,9 @@
 import './Topbar.scss'
 import {
   Instagram, LinkedIn, GitHub,
-  PlayCircleOutline
+  // PlayCircleOutline
 } from '@material-ui/icons';
-import Spotify from '../../images/Spotify.png'
+// import Spotify from '../../images/Spotify.png'
 
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
@@ -26,7 +26,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                 <LinkedIn className='icon' />
                 {/* <span>anvayb</span> */}
               </div>
-            </a>
+            </a> 
 
             <a target="_blank" rel='noopener noreferrer' href="https://github.com/AnvayB">
               <div className="itemContainer">

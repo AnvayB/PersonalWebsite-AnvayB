@@ -18,6 +18,15 @@ export default function Contact() {
       </div>
       <div className="right">
         <h2>Contact</h2>
+        {/*  */}
+        <br />
+        <p align="center">
+          Hi! <br />
+          Thank you for visiting my website. <br />
+          Unfortunately, this Contact section is still under construction, <br /> but it will be up and working soon! <br />
+          Until then, please contact me at <a href='mailto:anvay.bhanap@gmail.com'>anvay.bhanap@gmail.com</a> for any questions.
+          </p>
+        {/*  */}
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder='Email' />
           <textarea placeholder='Message'></textarea>
