@@ -26,7 +26,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                 <LinkedIn className='icon' />
                 {/* <span>anvayb</span> */}
               </div>
-            </a>
+            </a> 
 
             <a target="_blank" rel='noopener noreferrer' href="https://github.com/AnvayB">
               <div className="itemContainer">
