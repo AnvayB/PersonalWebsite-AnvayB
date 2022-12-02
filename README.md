@@ -105,27 +105,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - CSS/SCSS ✅
   - React.js ✅
   - Python ✅
-  - Java
-  - MySQL
+  - Java/Spring Boot (5 months)
   - Git/Github
   - Adobe Photoshop/Lightroom/XD ✅
-  - Z Shell (zsh)
 - Content -> Hobbies/Interests
   - fun facts and stuff idk
+  - Good at various racquet sports
+  - Amateur photographer
+  - Driving hobbyist/enthusiast
 
 ## Page 3: Projects
 ```md
 Components: 
-- Icon
-- Title
+- Icon ✅
+- Title ✅
 - Description
 - Link
-- *Note: Increase arrow div to span the hieght of the page*
 ```
-  - iSky
-  - Code Cocktails
-  - OpenWeatherMap app
-  - Github page
+  - iSky ✅
+  - Code Cocktails ✅
+  - OpenWeatherMap app ✅
+  - Github page 
+  - _Fix arrows; `left direction arrow doesn't work`_
 # Page 4: Recommendations (w/ LinkedIn icon links)
 - Sambprasad ✅
 - Diego ✅

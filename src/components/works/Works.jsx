@@ -1,6 +1,10 @@
 import './Works.scss'
-import mobile from "../../images/mobile.png"
+import desktop from "../../images/desktop.png"
 import arrow from '../../images/arrow.png'
+import isky from './projectImages/isky.png'
+import CC from './projectImages/codecocktails.png'
+import weather from './projectImages/weather.png'
+import github from './projectImages/github.png'
 import { useState } from 'react';
 
 export default function Works() {
@@ -9,31 +13,41 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: mobile,
-      title: "Web Design",
+      icon: desktop,
+      title: "iSky",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "A COVID-conscious vacation planner for post-quarantine travelers built using ReactJS and Material UI",
+      img: isky,
+      link: "https://isky.netlify.app/"
     },
     {
       id: "2",
-      icon: mobile,
-      title: "Mobile Application",
+      icon: desktop,
+      title: "Code Cocktails",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        "An engaging web application that provides the user with simple cocktail recipes based on certain input criteria built with vanilla JS, HTML, and CSS",
+      img: CC,
+      link: "https://pixie-sticks2.github.io/Code-Cocktails/"
     },
     {
       id: "3",
-      icon: mobile,
-      title: "Branding",
+      icon: desktop,
+      title: "Weather App",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        "Simple weather app that informs the user about the current temperature, humidity, and wind speed in the requested location. Built using ReactJS and OpenWeatherMap API.",
+      img: weather,
+      link: "https://github.com/AnvayB/Weatherapp"
     },
+    {
+      id: "4",
+      icon: desktop,
+      title: "Github",
+      desc:
+        "",
+      img:
+        github,
+      link: "https://github.com/AnvayB"
+    }
   ];
 //when you add another element above here ^^ for the github page, make sure to adjust handleClick to go to 3 instead of 2
   const handleClick = (way) => {
@@ -56,18 +70,18 @@ export default function Works() {
                   <h2>{d.title}</h2>
                   <p> {d.desc}
                   </p>
-                  <span>Projects</span>
+                  <a href={d.link} target="_blank" rel='noopener noreferrer' className='projectLink'><span>Link</span></a>
                 </div>
               </div>
               <div className="right">
-                <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
+                <img src={d.img}
                   alt="" />
               </div>
             </div>
           </div>
         ))}
       </div>
-      <img src={arrow} className="arrow left" alt="" onClick={() => handleClick("left")}/>
+      {/* <img src={arrow} className="arrow left" alt="" onClick={() => handleClick("left")}/> */}
       <img src={arrow} className="arrow right" alt="" onClick={() => handleClick()}/>
     </div>
   )
