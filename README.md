@@ -127,13 +127,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Components: 
 - Icon ✅
 - Title ✅
-- Description
-- Link
+- Description 
+- Link ✅
 ```
   - iSky ✅
   - Code Cocktails ✅
   - OpenWeatherMap app ✅
-  - Github page 
+  - Github page ✅
+  - _Reduce content in CC and OWM description_
   - _Fix arrows; `left direction arrow doesn't work`_
 # Page 4: Recommendations (w/ LinkedIn icon links)
 - Sambprasad ✅

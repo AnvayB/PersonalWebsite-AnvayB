@@ -2,14 +2,22 @@ import html from './components/portfolio/portfolioImages/htmlcssjs.png';
 import cf from './components/portfolio/portfolioImages/codefellows.jpeg';
 import adobe from './components/portfolio/portfolioImages/adobe.png';
 import python from './components/portfolio/portfolioImages/python.png'
-import successLC from './components/portfolio/portfolioImages/succesLC.png'
+import successLC from './components/portfolio/portfolioImages/succesLC.png';
+import mhs from './components/portfolio/portfolioImages/mhs.gif';
+import sjsu from './components/portfolio/portfolioImages/sjsu.jpeg'
+import prismatic from './components/portfolio/portfolioImages/prismatic.jpeg'
+import rm from './components/portfolio/portfolioImages/rm.png'
+import react from './components/portfolio/portfolioImages/react.png'
+import git from './components/portfolio/portfolioImages/git.png'
+import spring from './components/portfolio/portfolioImages/spring.png'
+import vscode from './components/portfolio/portfolioImages/vscode.png'
+import intellij from './components/portfolio/portfolioImages/intellij.png';
 
 export const featuredPortfolio = [
   {
     id: 1,
     title: "San Jose State University",
-    img:
-      "https://www.sjsu.edu/cies/pics/tower_hall_02.jpg",
+    img: sjsu,
     dates: "Aug 2018 - Dec 2022"
   },
   {
@@ -22,8 +30,7 @@ export const featuredPortfolio = [
   {
     id: 3,
     title: "Milpitas High School",
-    img:
-      "https://webstores.activenetwork.com/school-software/milpitas_high_school/userdata/milpitas_high_school/photo.gif",
+    img: mhs,
     dates: "Aug 2014 - Jun 2018"
   },
 ];
@@ -31,14 +38,14 @@ export const featuredPortfolio = [
 export const webPortfolio = [
   {
     id: 1,
-    title: "Prismatic Softwares",
-    img: "https://i.ytimg.com/vi/rrA2oCUA584/mqdefault.jpg",
+    title: "Prismatic Softwares Pvt. Ltd.",
+    img: prismatic,
     dates: "Jun 2022 - Aug 2022"
   },
   {
     id: 2,
     title: "RippleMatch",
-    img: "https://d3ojh0z2ifymtd.cloudfront.net/homepage/RM_og_tag.png",
+    img: rm,
     dates: "Jan 2021 - Apr 2021"
   },
   {
@@ -53,9 +60,9 @@ export const designPortfolio = [
   {
     id: 1,
     title: "ReactJS",
-    img:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--qo_Wp38Z--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/e0nl7ziy1la7bpwj7rsp.png",
-      dates: "1.5 years"
+    // original background color: #292c34
+    img: react,
+    dates: "1.5 years"
   },
   {
     id: 2,
@@ -72,6 +79,18 @@ export const designPortfolio = [
     dates: "2+ years"
   },
   {
+    id: 7,
+    title: "Visual Studio Code",
+    img: vscode,
+    dates: "2 years"
+  },
+  {
+    id: 5,
+    title: "Git & Github",
+    img: git,
+    dates: "3+ years"
+  },
+  {
     id: 4,
     title: "Python",
     img:
@@ -79,17 +98,15 @@ export const designPortfolio = [
     dates: "1 year"
   },
   {
-    id: 5,
-    title: "Git & Github",
-    img:
-      "https://www.freecodecamp.org/news/content/images/2022/07/git-github.png",
-    dates: "3+ years"
+    id: 8,
+    title: "IntelliJ IDEA",
+    img: intellij,
+    dates: "1 year"
   },
   {
     id: 6,
     title: "Spring Boot",
-    img:
-      "https://miro.medium.com/max/600/1*3QuStAoBvGDert0vraHGnQ.png",
+    img: spring,
     dates: "5 months"
   },
 ];

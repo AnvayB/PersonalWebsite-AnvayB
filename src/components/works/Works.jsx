@@ -34,7 +34,7 @@ export default function Works() {
       icon: desktop,
       title: "Weather App",
       desc:
-        "Simple weather app that informs the user about the current temperature, humidity, and wind speed in the requested location. Built using ReactJS and OpenWeatherMap API.",
+        "Simple weather app that informs the user about the current temperature, humidity, and wind speed in the requested location. Built using ReactJS and OpenWeatherMap API",
       img: weather,
       link: "https://github.com/AnvayB/Weatherapp"
     },
@@ -58,6 +58,7 @@ export default function Works() {
 
   return (
     <div className='works' id='works'>
+      <h1>Projects</h1>
       <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
         {data.map(d => (
           <div className="container">
