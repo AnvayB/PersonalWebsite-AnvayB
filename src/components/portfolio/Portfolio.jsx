@@ -31,7 +31,7 @@ export default function Portfolio() {
     },
     {
       id: "content",
-      title: "Content",
+      title: "Hobbies + Interests",
     },
   ];
 
@@ -59,7 +59,8 @@ export default function Portfolio() {
 
   return (
     <div className="portfolio" id="portfolio">
-      <h1>Portfolio</h1>
+      <h1>Portfolio</h1> 
+      <p>Hover over an icon to see my experience</p> <br />
       <ul>
         {list.map((item) => (
           <PortfolioList
