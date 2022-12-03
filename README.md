@@ -85,13 +85,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - scrolling text ✅
 - basic contact info -> icons for social media (Insta, LinkedIn, Github, Spotify) ✅
   - **review Spotify playlists before including link**
-- cahnge favicon.ico into smth else
+- change favicon.ico into smth else
 <!-- use healing from Lightroom to lessen face blemishes -->
 
 ## Page 2: Portfolio 
 ```md
-- _make all images into logos_
-- _change all id values_ ✅
+- make all images into logos ✅
+- change all id values ✅
 ```
 - Featured -> Education
   - MHS ✅
@@ -127,14 +127,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Components: 
 - Icon ✅
 - Title ✅
-- Description 
+- Description **Github description remaining**
 - Link ✅
 ```
   - iSky ✅
   - Code Cocktails ✅
   - OpenWeatherMap app ✅
   - Github page ✅
-  - _Reduce content in CC and OWM description_
+  - _Reduce width of `Link` div_
+  - _Decrease content in CC and OWM description_
   - _Fix arrows; `left direction arrow doesn't work`_
 # Page 4: Recommendations (w/ LinkedIn icon links)
 - Sambprasad ✅
