@@ -151,4 +151,3 @@ Components:
 - link to companies from hover
 - hover over project, shows skills, link to github
 - project: link project link to entire container
-- remove static scrolling
