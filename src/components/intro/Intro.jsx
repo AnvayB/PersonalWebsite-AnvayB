@@ -16,7 +16,7 @@ export default function Intro() {
         "Software Engineer",
         "Web Developer",
         "React.js Developer",
-        "Photographer",
+        "Amateur Photographer",
         "Avid Music Lover",
         "Cinephile",
         "Food and Travel Enthusiast"
