@@ -106,4 +106,22 @@
     }
     
   }
+  a {
+    position: relative;
+    // top: 50vh;
+    top: 55%;
+    // right: 50%;
+
+    img {
+      width: 40px;
+      animation: arrowBlink 2s infinite;
+    }
+
+    @keyframes arrowBlink {
+      50% {
+        opacity: 0;
+      }
+      
+    }
+  }
 }

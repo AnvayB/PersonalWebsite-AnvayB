@@ -4,6 +4,7 @@ import {
   // PlayCircleOutline
 } from '@material-ui/icons';
 // import Spotify from '../../images/Spotify.png'
+import pdf from '../../images/pdf.png';
 
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
@@ -35,7 +36,13 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
               </div>
             </a>
 
-            {/* <a target="_blank" rel='noopener noreferrer' href="https://open.spotify.com/user/22yytji6kwymjgjkrxficzvay?si=ef7d34a5c9f84f3c">
+            <a target="_blank" rel='noopener noreferrer' href="https://docs.google.com/document/d/1X9KfnHKKW_6LENlBcrwiAOLfBRHFmE5nap2sp8IKnw4/edit?usp=sharing">
+              <div className="itemContainer">
+                <img src={pdf} alt="" className="icon" width={'20px'} />
+              </div>
+            </a>
+
+             {/* <a target="_blank" rel='noopener noreferrer' href="https://open.spotify.com/user/22yytji6kwymjgjkrxficzvay?si=ef7d34a5c9f84f3c">
               <div className="itemContainer">
                 <PlayCircleOutline className="icon" />
                 <img src={Spotify} alt="" className="icon" width={'18px'} />

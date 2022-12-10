@@ -1,6 +1,7 @@
 import './Portfolio.scss'
 import PortfolioList from '../portfolioList/PortfolioList';
 import { useState, useEffect } from 'react';
+import down from '../../images/down.png'
 import {
   featuredPortfolio,
   webPortfolio,
@@ -83,6 +84,9 @@ export default function Portfolio() {
           </div>
         ))}
       </div>
+        <a href="#works">
+          <img src={down} alt=""/>
+        </a>
     </div>
   );
 }
