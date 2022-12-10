@@ -22,10 +22,6 @@ export default function Portfolio() {
       id: "web",
       title: "Work Experience",
     },
-    // {
-    //   id: "mobile",
-    //   title: "Mobile App",
-    // },
     {
       id: "design",
       title: "Languages + Tools",

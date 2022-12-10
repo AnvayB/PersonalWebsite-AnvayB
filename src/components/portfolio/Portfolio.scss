@@ -27,6 +27,8 @@
     padding: 0;
     list-style: none;
     display: flex;
+    position: relative;
+    left: 4%;
 
     //editable
     @include mobile {

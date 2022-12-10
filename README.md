@@ -143,3 +143,12 @@ Components:
 
 # Page 5: Contact Me (use Email.js)
 - learn from lama dev [tutorial](https://youtu.be/hQjlM-8C4Ps?t=2995)
+
+
+# Fixes
+- projects in portfolio
+- work, projects, education, languages
+- link to companies from hover
+- hover over project, shows skills, link to github
+- project: link project link to entire container
+- remove static scrolling
