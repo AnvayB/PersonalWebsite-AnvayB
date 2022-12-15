@@ -13,7 +13,7 @@ import spring from './components/portfolio/portfolioImages/spring.png'
 import vscode from './components/portfolio/portfolioImages/vscode.png'
 import intellij from './components/portfolio/portfolioImages/intellij.png';
 
-export const featuredPortfolio = [
+export const educationPortfolio = [
   {
     id: 1,
     title: "San Jose State University",
@@ -27,7 +27,7 @@ export const featuredPortfolio = [
     img:
       cf,
     info: "Jun 2021 - Aug 2021",
-    link: "https://www.codefellows.org/"
+    link: "https://www.codefellows.org/" 
   },
   {
     id: 3,
@@ -62,7 +62,7 @@ export const workPortfolio = [
   },
 ];
 
-export const designPortfolio = [
+export const skillsPortfolio = [
   {
     id: 1,
     title: "ReactJS",
@@ -120,19 +120,20 @@ export const designPortfolio = [
 export const projectPortfolio = [
   {
     id: 1,
-    title: "Content Social Media App",
+    title: "iSky",
     img:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    
   },
   {
     id: 2,
-    title: "Content Rampa UI Design",
+    title: "Code Cocktails",
     img:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
   },
   {
     id: 3,
-    title: "Content E-commerce Web Design",
+    title: "Clim8",
     img:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
   },
@@ -155,3 +156,41 @@ export const projectPortfolio = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
   },
 ];
+
+//   {
+//     id: 1,
+//     title: "Content Social Media App",
+//     img:
+//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+//   },
+//   {
+//     id: 2,
+//     title: "Content Rampa UI Design",
+//     img:
+//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+//   },
+//   {
+//     id: 3,
+//     title: "Content E-commerce Web Design",
+//     img:
+//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+//   },
+//   {
+//     id: 4,
+//     title: "Content Relax Mobile App",
+//     img:
+//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+//   },
+//   {
+//     id: 5,
+//     title: "Content Keser Web Design",
+//     img:
+//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+//   },
+//   {
+//     id: 6,
+//     title: "Content Banking App",
+//     img:
+//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+//   },
+// ];

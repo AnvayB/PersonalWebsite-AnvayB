@@ -6,6 +6,12 @@
   flex-direction: column;
   align-items: center;
 
+  /* width */
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+
   h1 {
     font-size: 50px;
 
@@ -16,6 +22,7 @@
 
   p {
     font-size: 16px;
+
     @include mobile {
       font-size: 7px;
     }
@@ -28,7 +35,7 @@
     list-style: none;
     display: flex;
     position: relative;
-    left: 2%;
+    left: 4%;
 
     //editable
     @include mobile {
@@ -52,71 +59,73 @@
 
     }
 
-   a {
-    text-decoration: none;
+    a {
+      text-decoration: none;
 
-    .item {
-      width: 220px;
-      height: 150px;
-      border-radius: 20px;
-      border: 1px solid rgb(240, 239, 239);
-      margin: 10px 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      position: relative;
-      transition: all .5s ease;
-      cursor: pointer;
-
-      //editable
-      @include mobile {
-        width: 140px;
-        height: 120px;
-      }
-
-      h3 {
-        position: absolute;
-        font-size: 20px;
-        text-align: center;
-      }
-      h4 {
-        margin-top: -9%;
+      .item {
+        width: 220px;
+        height: 150px;
+        border-radius: 20px;
+        border: 1px solid rgb(240, 239, 239);
+        margin: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
         position: relative;
-        bottom: 10px;
-
+        transition: all .5s ease;
+        cursor: pointer;
+  
+        //editable
         @include mobile {
-          font-size: 12px;
-          outline: none;
+          width: 140px;
+          height: 120px;
         }
-      }
-
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: 1;
-
-      }
-
-      &:hover {
-        background-color: $mainColor;
+  
+        h3 {
+          position: absolute;
+          font-size: 20px;
+          text-align: center;
+        }
+  
+        h4 {
+          margin-top: -9%;
+          position: relative;
+          bottom: 10px;
+  
+          @include mobile {
+            font-size: 12px;
+            outline: none;
+          }
+        }
+  
         img {
-          opacity: 0.2;
-          z-index: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          z-index: 1;
+  
         }
+  
+        &:hover {
+          background-color: $mainColor;
+  
+          img {
+            opacity: 0.2;
+            z-index: 0;
+          }
+        }
+  
       }
-
     }
 
-   }
-    
   }
+
   a.arrow {
     position: relative;
     // top: 50vh;
-    top: 55%;
+    // top: 55%;
     // right: 50%;
 
     img {
@@ -128,7 +137,7 @@
       50% {
         opacity: 0;
       }
-      
+
     }
   }
 }

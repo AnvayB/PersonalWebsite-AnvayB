@@ -3,11 +3,10 @@ import PortfolioList from '../portfolioList/PortfolioList';
 import { useState, useEffect } from 'react';
 import down from '../../images/down.png'
 import {
-  featuredPortfolio,
-  workPortfolio,
-  //mobilePortfolio,
-  designPortfolio,
+  educationPortfolio,
   projectPortfolio,
+  skillsPortfolio,
+  workPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
@@ -23,14 +22,13 @@ export default function Portfolio() {
       title: "Projects",
     },
     {
-      id: "featured",
+      id: "education",
       title: "Education",
     },
     {
-      id: "design",
+      id: "skills",
       title: "Languages + Tools",
     },
-    
   ];
 
   useEffect(() => {
@@ -38,20 +36,17 @@ export default function Portfolio() {
       case "work":
         setData(workPortfolio);
         break;
-      case "featured":
-        setData(featuredPortfolio);
+      case "education":
+        setData(educationPortfolio);
         break;
-      // case "mobile":
-      //   setData(mobilePortfolio);
-      //   break;
-      case "design":
-        setData(designPortfolio);
+      case "skills":
+        setData(skillsPortfolio);
         break;
       case "projects":
         setData(projectPortfolio);
         break;
       default:
-        setData(featuredPortfolio);
+        setData(workPortfolio);
     }
   }, [selected]);
 
@@ -71,7 +66,7 @@ export default function Portfolio() {
       </ul>
       <div className="container">
         {data.map((d) => (
-          <a href={d.link} target="_blank" rel="noreferrer noopener">
+          <a href={d.link}>
             <div className="item">
             <img
               src={d.img}

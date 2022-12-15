@@ -8,6 +8,11 @@
   cursor: pointer;
   transition: all .45s ease;
 
+    /* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
   @include mobile {
     margin-right: 35px;
   }
