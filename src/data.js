@@ -10,8 +10,8 @@ import rm from './components/portfolio/portfolioImages/rm.png'
 import react from './components/portfolio/portfolioImages/react.png'
 import git from './components/portfolio/portfolioImages/git.png'
 import spring from './components/portfolio/portfolioImages/spring.png'
-import vscode from './components/portfolio/portfolioImages/vscode.png'
-import intellij from './components/portfolio/portfolioImages/intellij.png';
+import vscodeintellij from './components/portfolio/portfolioImages/vscode.png'
+
 
 export const educationPortfolio = [
   {
@@ -86,8 +86,8 @@ export const skillsPortfolio = [
   },
   {
     id: 7,
-    title: "Visual Studio Code",
-    img: vscode,
+    title: "VS Code / IntelliJ",
+    img: vscodeintellij,
     info: "2 years"
   },
   {
@@ -101,12 +101,6 @@ export const skillsPortfolio = [
     title: "Python",
     img:
       python,
-    info: "1 year"
-  },
-  {
-    id: 8,
-    title: "IntelliJ IDEA",
-    img: intellij,
     info: "1 year"
   },
   {
