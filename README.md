@@ -144,11 +144,24 @@ Components:
 # Page 5: Contact Me (use Email.js)
 - learn from lama dev [tutorial](https://youtu.be/hQjlM-8C4Ps?t=2995)
 
+# Analyze Website Traffic
+[options](https://www.hotjar.com/website-tracking/tools/)
 
 # Fixes
-- projects in portfolio
-- work, projects, education, languages
-- link to companies from hover
+- Projects in portfolio
+  - hover over project, shows skills
+  - click on container, link to github
+- Projects page
+  - remove tiny Link
+  - make entire container OR make image be the link to the site
+  - remove Github section
+- Arrow
+  - add down arrow on all pages
+  - format arrow positioning to be same on all screen sizes
+
+<!-- - projects in portfolio -->
+<!-- - work, projects, education, languages -->
+<!-- - link to companies from hover -->
 - hover over project, shows skills, link to github
 - project: link project link to entire container
-- remove static scrolling
+<!-- - remove static scrolling -->
