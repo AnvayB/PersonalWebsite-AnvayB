@@ -113,7 +113,19 @@ export const skillsPortfolio = [
     id: 6,
     title: "Spring Boot",
     img: spring,
-    info: "5 months"
+    info: "6 months"
+  },
+  {
+    id: 7,
+    title: "Postman",
+    img: "",
+    info: "6 months"
+  },
+  {
+    id: 8,
+    title: "Docker",
+    img: "",
+    info: "6 months"
   },
 ];
 
@@ -123,6 +135,8 @@ export const projectPortfolio = [
     title: "iSky",
     img:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    info: "ReactJS, HTML/CSS, Github",
+    link: "https://github.com/Group22-Senior-Project/iSky"
     
   },
   {
@@ -130,30 +144,48 @@ export const projectPortfolio = [
     title: "Code Cocktails",
     img:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    info: "HTML/JS/CSS, Github",
+    link: "https://github.com/Pixie-Sticks2/Code-Cocktails"
   },
   {
     id: 3,
     title: "Clim8",
     img:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    info: "ReactJS, API usage",
+    link: "https://github.com/AnvayB/Clim8"
   },
   {
     id: 4,
-    title: "Content Relax Mobile App",
+    title: "HR Portal",
     img:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    info: "ReactJS, Spring Boot",
+    link: "https://github.com/HRPortal-Anvay/recaptchav1"
   },
   {
     id: 5,
-    title: "Content Keser Web Design",
+    title: "EKEA",
     img:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    info: "Dart, Flutter, Android Studio",
+    link: "https://github.com/elizabethhillman/cmpe137_team4"
   },
   {
     id: 6,
-    title: "Content Banking App",
+    title: "Brick Breaker",
     img:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    info: "Java, JavaFX, Github",
+    link: "https://github.com/AnvayB/Brick-Breaker2"
+  },
+  {
+    id: 7,
+    title: "Spartan Expense Tracker",
+    img:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    info: "Java, Java Swing, Github",
+    link: "https://github.com/AnvayB/Spartan-Expense-Tracker-GUI"
   },
 ];
 

@@ -113,8 +113,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - Java/Spring Boot ✅
   - Git/Github ✅
   - Adobe Photoshop/Lightroom/XD ✅
-  - VS Code (2 years)
-  - IntelliJ (1 year)
+  - VS Code (2 years) ✅
+  - IntelliJ (1 year) ✅
+  - Docker (6 months)
+  - Postman (6 months)
   - **organize into langs and tools**
 - Content -> Hobbies/Interests
   - fun facts and stuff idk

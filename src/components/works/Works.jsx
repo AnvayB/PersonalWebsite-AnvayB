@@ -4,7 +4,7 @@ import arrow from '../../images/arrow.png'
 import isky from './projectImages/isky.png'
 import CC from './projectImages/codecocktails.png'
 import weather from './projectImages/weather.png'
-import github from './projectImages/github.png'
+// import github from './projectImages/github.png'
 import { useState } from 'react';
 
 export default function Works() {
@@ -38,16 +38,16 @@ export default function Works() {
       img: weather,
       link: "https://github.com/AnvayB/Weatherapp"
     },
-    {
-      id: "4",
-      icon: desktop,
-      title: "Github",
-      desc:
-        "",
-      img:
-        github,
-      link: "https://github.com/AnvayB"
-    }
+    // {
+    //   id: "4",
+    //   icon: desktop,
+    //   title: "Github",
+    //   desc:
+    //     "",
+    //   img:
+    //     github,
+    //   link: "https://github.com/AnvayB"
+    // }
   ];
 //when you add another element above here ^^ for the github page, make sure to adjust handleClick to go to 3 instead of 2
   const handleClick = (way) => {
