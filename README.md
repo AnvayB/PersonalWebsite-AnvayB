@@ -71,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/075cb6b3-5034-43fa-aec6-017a6518dcb5/deploy-status)](https://app.netlify.com/sites/anvayb/deploys)
 
-[Link](anvayb.netlify.app)
+[Link](https://anvayb.netlify.app/)
 
 # Notes:
 
@@ -151,19 +151,13 @@ Components:
 
 # Fixes
 - Projects in portfolio
-  - hover over project, shows skills
-  - click on container, link to github
+  - hover over project, shows skills ✅
+  - click on container, link to github ✅
 - Projects page
   - remove tiny Link
   - make entire container OR make image be the link to the site
-  - remove Github section
+  - remove Github section ✅
 - Arrow
   - add down arrow on all pages
   - format arrow positioning to be same on all screen sizes
-
-<!-- - projects in portfolio -->
-<!-- - work, projects, education, languages -->
-<!-- - link to companies from hover -->
-<!-- - hover over project, shows skills, link to github -->
-- project: link project link to entire container
-<!-- - remove static scrolling -->
+  - change arrow type on Projects page

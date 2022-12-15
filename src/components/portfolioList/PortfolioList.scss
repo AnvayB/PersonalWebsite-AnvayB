@@ -7,11 +7,12 @@
   border-radius: 10px;
   cursor: pointer;
   transition: all .45s ease;
+  border: 1px solid $mainColor;
 
-    /* width */
-::-webkit-scrollbar {
-  width: 0px;
-}
+  /* width */
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
 
   @include mobile {
     margin-right: 35px;
@@ -21,6 +22,6 @@
     background-color: $mainColor;
     color: white;
     border: none;
-    
+
   }
 }

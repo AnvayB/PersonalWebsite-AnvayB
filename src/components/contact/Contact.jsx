@@ -22,8 +22,8 @@ export default function Contact() {
         <br />
         <p align="center">
           Hi! <br />
-          Thank you for visiting my website. <br />
-          Unfortunately, this Contact section is still under construction, <br /> but it will be up and working soon! <br />
+          Thank you for visiting my website. <br /> <br />
+          This Contact section is still under construction, but it will be up and working soon! <br /> <br />
           Until then, please contact me at <a href='mailto:anvay.bhanap@gmail.com'>anvay.bhanap@gmail.com</a> for any questions.
           <br /> <br /> Or if you want to offer me a job straightaway, I'll take that too. 😄
           </p>
