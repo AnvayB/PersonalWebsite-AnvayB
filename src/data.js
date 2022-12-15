@@ -18,41 +18,47 @@ export const featuredPortfolio = [
     id: 1,
     title: "San Jose State University",
     img: sjsu,
-    dates: "Aug 2018 - Dec 2022"
+    info: "Aug 2018 - Dec 2022",
+    link: "https://www.sjsu.edu/"
   },
   {
     id: 2,
     title: "Code Fellows",
     img:
       cf,
-    dates: "Jun 2021 - Aug 2021"
+    info: "Jun 2021 - Aug 2021",
+    link: "https://www.codefellows.org/"
   },
   {
     id: 3,
     title: "Milpitas High School",
     img: mhs,
-    dates: "Aug 2014 - Jun 2018"
+    info: "Aug 2014 - Jun 2018",
+    link: "https://mhs.musd.org/"
   },
 ];
 
-export const webPortfolio = [
+export const workPortfolio = [
   {
     id: 1,
     title: "Prismatic Softwares Pvt. Ltd.",
     img: prismatic,
-    dates: "Jun 2022 - Aug 2022"
+    info: "Jun 2022 - Aug 2022",
+    link: "https://www.prissoft.net/"
   },
   {
     id: 2,
     title: "RippleMatch",
     img: rm,
-    dates: "Jan 2021 - Apr 2021"
+    info: "Jan 2021 - Apr 2021",
+    link: "https://ripplematch.com/"
   },
   {
     id: 3,
     title: "Success Learning Center",
     img: successLC,
-    dates: "Jan 2018 - Jun 2018"
+    info: "Jan 2018 - Jun 2018",
+    link: "http://cliveden.com/"
   },
 ];
 
@@ -62,90 +68,90 @@ export const designPortfolio = [
     title: "ReactJS",
     // original background color: #292c34
     img: react,
-    dates: "1.5 years"
+    info: "1.5 years"
   },
   {
     id: 2,
     title: "HTML/JS/CSS",
     img:
       html,
-    dates: "1.5+ years"
+    info: "1.5+ years"
   },
   {
     id: 3,
     title: "Adobe Photoshop, Lightroom, XD",
     img:
       adobe,
-    dates: "2+ years"
+    info: "2+ years"
   },
   {
     id: 7,
     title: "Visual Studio Code",
     img: vscode,
-    dates: "2 years"
+    info: "2 years"
   },
   {
     id: 5,
     title: "Git & Github",
     img: git,
-    dates: "3+ years"
+    info: "3+ years"
   },
   {
     id: 4,
     title: "Python",
     img:
       python,
-    dates: "1 year"
+    info: "1 year"
   },
   {
     id: 8,
     title: "IntelliJ IDEA",
     img: intellij,
-    dates: "1 year"
+    info: "1 year"
   },
   {
     id: 6,
     title: "Spring Boot",
     img: spring,
-    dates: "5 months"
+    info: "5 months"
   },
 ];
 
-// export const contentPortfolio = [
-//   {
-//     id: 1,
-//     title: "Content Social Media App",
-//     img:
-//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-//   },
-//   {
-//     id: 2,
-//     title: "Content Rampa UI Design",
-//     img:
-//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-//   },
-//   {
-//     id: 3,
-//     title: "Content E-commerce Web Design",
-//     img:
-//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-//   },
-//   {
-//     id: 4,
-//     title: "Content Relax Mobile App",
-//     img:
-//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-//   },
-//   {
-//     id: 5,
-//     title: "Content Keser Web Design",
-//     img:
-//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-//   },
-//   {
-//     id: 6,
-//     title: "Content Banking App",
-//     img:
-//       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-//   },
-// ];
+export const projectPortfolio = [
+  {
+    id: 1,
+    title: "Content Social Media App",
+    img:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  },
+  {
+    id: 2,
+    title: "Content Rampa UI Design",
+    img:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  },
+  {
+    id: 3,
+    title: "Content E-commerce Web Design",
+    img:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  },
+  {
+    id: 4,
+    title: "Content Relax Mobile App",
+    img:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  },
+  {
+    id: 5,
+    title: "Content Keser Web Design",
+    img:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  },
+  {
+    id: 6,
+    title: "Content Banking App",
+    img:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  },
+];

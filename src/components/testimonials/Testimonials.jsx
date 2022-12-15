@@ -23,7 +23,7 @@ export default function Testimonials() {
       title: "Founder and Managing Director",
       company: "Prismatic Softwares Pvt. Ltd.",
       img:
-        "https://media-exp1.licdn.com/dms/image/D4D35AQE3h9PEl4zzhw/profile-framedphoto-shrink_200_200/0/1668430556706?e=1670274000&v=beta&t=V3qafbxluKm_WbaHbY4ku0Lu9CdFdI254gjKbYEwz_s",
+        "https://media.licdn.com/dms/image/D4D03AQGUc6g4iEw4jg/profile-displayphoto-shrink_800_800/0/1668430554172?e=1676505600&v=beta&t=4DT_p0Kx2NTZK4GRwYIIp6mESeRIXswQ6I5rPRM4bSY",
       icon: linkedin,
       link: "https://www.linkedin.com/in/sambprasad/",
       desc:

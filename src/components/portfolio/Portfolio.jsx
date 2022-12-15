@@ -4,10 +4,10 @@ import { useState, useEffect } from 'react';
 import down from '../../images/down.png'
 import {
   featuredPortfolio,
-  webPortfolio,
+  workPortfolio,
   //mobilePortfolio,
   designPortfolio,
-  // contentPortfolio,
+  projectPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
@@ -15,30 +15,31 @@ export default function Portfolio() {
   const [data, setData] = useState([]);
   const list = [
     {
-      id: "featured",
-      title: "Education",
+      id: "work",
+      title: "Work Experience",
     },
     {
-      id: "web",
-      title: "Work Experience",
+      id: "projects",
+      title: "Projects",
+    },
+    {
+      id: "featured",
+      title: "Education",
     },
     {
       id: "design",
       title: "Languages + Tools",
     },
-    // {
-    //   id: "content",
-    //   title: "Hobbies + Interests",
-    // },
+    
   ];
 
   useEffect(() => {
     switch (selected) {
+      case "work":
+        setData(workPortfolio);
+        break;
       case "featured":
         setData(featuredPortfolio);
-        break;
-      case "web":
-        setData(webPortfolio);
         break;
       // case "mobile":
       //   setData(mobilePortfolio);
@@ -46,9 +47,9 @@ export default function Portfolio() {
       case "design":
         setData(designPortfolio);
         break;
-      // case "content":
-      //   setData(contentPortfolio);
-      //   break;
+      case "projects":
+        setData(projectPortfolio);
+        break;
       default:
         setData(featuredPortfolio);
     }
@@ -70,17 +71,19 @@ export default function Portfolio() {
       </ul>
       <div className="container">
         {data.map((d) => (
-          <div className="item">
+          <a href={d.link} target="_blank" rel="noreferrer noopener">
+            <div className="item">
             <img
               src={d.img}
               alt=""
             />
             <h3>{d.title}</h3>
-            <h4>{d.dates}</h4>
+            <h4>{d.info}</h4>
           </div>
+          </a>
         ))}
       </div>
-        <a href="#works">
+        <a href="#works" className='arrow'>
           <img src={down} alt=""/>
         </a>
     </div>

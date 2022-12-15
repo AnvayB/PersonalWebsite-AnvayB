@@ -28,7 +28,7 @@
     list-style: none;
     display: flex;
     position: relative;
-    left: 4%;
+    left: 2%;
 
     //editable
     @include mobile {
@@ -51,6 +51,9 @@
       width: 100%;
 
     }
+
+   a {
+    text-decoration: none;
 
     .item {
       width: 220px;
@@ -106,9 +109,11 @@
       }
 
     }
+
+   }
     
   }
-  a {
+  a.arrow {
     position: relative;
     // top: 50vh;
     top: 55%;
