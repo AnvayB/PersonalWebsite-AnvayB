@@ -164,6 +164,6 @@ Components:
 <!-- - projects in portfolio -->
 <!-- - work, projects, education, languages -->
 <!-- - link to companies from hover -->
-- hover over project, shows skills, link to github
+<!-- - hover over project, shows skills, link to github -->
 - project: link project link to entire container
 <!-- - remove static scrolling -->
