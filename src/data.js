@@ -11,6 +11,8 @@ import react from './components/portfolio/portfolioImages/react.png'
 import git from './components/portfolio/portfolioImages/git.png'
 import spring from './components/portfolio/portfolioImages/spring.png'
 import vscodeintellij from './components/portfolio/portfolioImages/vscode.png'
+import postman from './components/portfolio/portfolioImages/postman.png'
+import docker from './components/portfolio/portfolioImages/docker.png'
 
 
 export const educationPortfolio = [
@@ -112,13 +114,13 @@ export const skillsPortfolio = [
   {
     id: 7,
     title: "Postman",
-    img: "",
+    img: postman,
     info: "6 months"
   },
   {
     id: 8,
     title: "Docker",
-    img: "",
+    img: docker,
     info: "6 months"
   },
 ];
