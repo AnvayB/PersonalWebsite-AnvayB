@@ -158,6 +158,6 @@ Components:
   - make image be the link to the site ✅
   - remove Github section ✅
 - Arrow
-  - add down arrow on all pages
-  - format arrow positioning to be same on all screen sizes
+  - add down arrow on all pages ✅
+  - format arrow positioning to be same on all screen sizes ✅
   - change arrow type on Projects page

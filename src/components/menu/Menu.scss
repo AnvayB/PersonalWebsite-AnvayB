@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: center;
   transition: all 1s ease;
+  opacity: .9;
   // Testimonials
   // Recommendations
 
@@ -28,9 +29,11 @@
     font-weight: 30;
     color: white;
     width: 60%;
+    
 
     li {
       margin-bottom: 25px;
+      
       // margin-bottom: 5px;
       // padding: 3vh 10vw;
       a {
