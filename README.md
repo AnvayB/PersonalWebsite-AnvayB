@@ -69,79 +69,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/075cb6b3-5034-43fa-aec6-017a6518dcb5/deploy-status)](https://app.netlify.com/sites/anvayb/deploys)
 
-[Link](https://anvayb.netlify.app/)
+# Deployment Link: [AnvayB](https://anvayb.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/075cb6b3-5034-43fa-aec6-017a6518dcb5/deploy-status)](https://app.netlify.com/sites/anvayb/deploys)
 
 # Notes:
 
 <!-- make sure to cover main points from [this](https://jonathanlu.herokuapp.com/) -->
 
 ## Page 1: Intro
-- title [upper left corner] (optional) ✅
-- name ✅
-- message ✅
-- photo ✅
-- scrolling text ✅
-- basic contact info -> icons for social media (Insta, LinkedIn, Github, Spotify) ✅
-  - **review Spotify playlists before including link**
 - change favicon.ico into smth else
 <!-- use healing from Lightroom to lessen face blemishes -->
 
 ## Page 2: Portfolio 
-```md
-- make all images into logos ✅
-- change all id values ✅
-```
 - Featured -> Education
-  - MHS ✅
-  - Code Fellows -> _fade issue on hover_ ✅
-  - SJSU ✅
-- Web App -> Work Experience
-  - Success Learning Center ✅
-  - RippleMatch ✅
-  - Prismatic ✅
-- Mobile App -> Projects ✅
-  - delete this one
- 
 - Design -> Languages + Tools (include spoken languages as well) (maybe just languages)
-  - JS ✅
-  - HTML ✅
-  - CSS/SCSS ✅
-  - React.js ✅
-  - Python ✅
-  - Java/Spring Boot ✅
-  - Git/Github ✅
-  - Adobe Photoshop/Lightroom/XD ✅
-  - VS Code (2 years) ✅
-  - IntelliJ (1 year) ✅
-  - Docker (6 months)
-  - Postman (6 months)
+
   - **organize into langs and tools**
-- Content -> Hobbies/Interests
+<!-- - Content -> Hobbies/Interests
   - fun facts and stuff idk
   - Good at various racquet sports
   - Amateur photographer
-  - Driving hobbyist/enthusiast
+  - Driving hobbyist/enthusiast -->
 
 ## Page 3: Projects
-```md
-Components: 
-- Icon ✅
-- Title ✅
-- Description **Github description remaining**
-- Link ✅
-```
-  - iSky ✅
-  - Code Cocktails ✅
-  - OpenWeatherMap app ✅
-  - Github page ✅
-  - _Reduce width of `Link` div_
-  - _Decrease content in CC and OWM description_
-  - Use carousel from bootstrap or mui
+- Use carousel from bootstrap or mui
+
 # Page 4: Recommendations (w/ LinkedIn icon links)
-- Sambprasad ✅
-- Diego ✅
 
 # Page 5: Contact Me (use Email.js)
 - learn from lama dev [tutorial](https://youtu.be/hQjlM-8C4Ps?t=2995)
@@ -150,14 +105,5 @@ Components:
 [options](https://www.hotjar.com/website-tracking/tools/)
 
 # Fixes
-- Projects in portfolio
-  - hover over project, shows skills ✅
-  - click on container, link to github ✅
-- Projects page
-  - remove tiny Link ✅
-  - make image be the link to the site ✅
-  - remove Github section ✅
 - Arrow
-  - add down arrow on all pages ✅
-  - format arrow positioning to be same on all screen sizes ✅
   - change arrow type on Projects page
