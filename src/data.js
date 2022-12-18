@@ -13,6 +13,9 @@ import spring from './components/portfolio/portfolioImages/spring.png'
 import vscodeintellij from './components/portfolio/portfolioImages/vscode.png'
 import postman from './components/portfolio/portfolioImages/postman.png'
 import docker from './components/portfolio/portfolioImages/docker.png'
+import isky from './components/portfolio/portfolioImages/isky.png'
+import CC from './components/portfolio/portfolioImages/codecocktails.png'
+import clim8 from './components/portfolio/portfolioImages/weather.png'
 
 
 export const educationPortfolio = [
@@ -129,8 +132,7 @@ export const projectPortfolio = [
   {
     id: 1,
     title: "iSky",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    img: isky,
     info: "ReactJS, HTML/CSS, Github",
     link: "https://github.com/Group22-Senior-Project/iSky"
     
@@ -138,16 +140,14 @@ export const projectPortfolio = [
   {
     id: 2,
     title: "Code Cocktails",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    img: CC,
     info: "HTML/JS/CSS, Github",
     link: "https://github.com/Pixie-Sticks2/Code-Cocktails"
   },
   {
     id: 3,
     title: "Clim8",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    img: clim8,
     info: "ReactJS, API usage",
     link: "https://github.com/AnvayB/Clim8"
   },

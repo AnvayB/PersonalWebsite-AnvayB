@@ -6,6 +6,7 @@ import CC from './projectImages/codecocktails.png'
 import weather from './projectImages/weather.png'
 // import github from './projectImages/github.png'
 import { useState } from 'react';
+import down from '../../images/down.png'
 
 export default function Works() {
 
@@ -85,6 +86,10 @@ export default function Works() {
       </div>
       {/* <img src={arrow} className="arrow left" alt="" onClick={() => handleClick("left")}/> */}
       <img src={arrow} className="arrow right" alt="" onClick={() => handleClick()} />
+
+      <a href="#testimonials" className='arrow'>
+        <img src={down} alt="" />
+      </a>
     </div>
   )
 }
