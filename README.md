@@ -155,6 +155,6 @@ Components:
 - Projects page
   - change arrow type on Projects page
 - Arrow
-  - add down arrow on all pages
-  - format arrow positioning to be same on all screen sizes
-
+  - add down arrow on all pages ✅
+  - format arrow positioning to be same on all screen sizes ✅
+  - change arrow type on Projects page
