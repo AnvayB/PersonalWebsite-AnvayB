@@ -57,7 +57,7 @@ export default function Portfolio() {
       <ul>
         {list.map((item) => (
           <PortfolioList
-            className="pList-sections"
+            // className="pList-sections"
             title={item.title}
             active={selected === item.id}
             setSelected={setSelected}

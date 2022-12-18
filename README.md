@@ -138,7 +138,7 @@ Components:
   - Github page ✅
   - _Reduce width of `Link` div_
   - _Decrease content in CC and OWM description_
-  - _Fix arrows; `left direction arrow doesn't work`_
+  - Use carousel from bootstrap or mui
 # Page 4: Recommendations (w/ LinkedIn icon links)
 - Sambprasad ✅
 - Diego ✅
@@ -154,8 +154,8 @@ Components:
   - hover over project, shows skills ✅
   - click on container, link to github ✅
 - Projects page
-  - remove tiny Link
-  - make entire container OR make image be the link to the site
+  - remove tiny Link ✅
+  - make image be the link to the site ✅
   - remove Github section ✅
 - Arrow
   - add down arrow on all pages

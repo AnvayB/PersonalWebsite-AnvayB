@@ -32,11 +32,11 @@ export default function Works() {
     {
       id: "3",
       icon: desktop,
-      title: "Weather App",
+      title: "Clim8",
       desc:
         "Simple weather app that informs the user about the current temperature, humidity, and wind speed in the requested location. Built using ReactJS and OpenWeatherMap API",
       img: weather,
-      link: "https://github.com/AnvayB/Weatherapp"
+      link: "https://clim8.netlify.app/"
     },
     // {
     //   id: "4",
@@ -49,17 +49,17 @@ export default function Works() {
     //   link: "https://github.com/AnvayB"
     // }
   ];
-//when you add another element above here ^^ for the github page, make sure to adjust handleClick to go to 3 instead of 2
+  //when you add another element above here ^^ for the github page, make sure to adjust handleClick to go to 3 instead of 2
   const handleClick = (way) => {
     way === "left" ? setCurrentSlide(currentSlide < 0 ? currentSlide - 1 : 2) :
-    setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1: 0)
+      setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0)
     console.log(currentSlide)
   }
 
   return (
     <div className='works' id='works'>
       <h1>Projects</h1>
-      <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
+      <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
         {data.map(d => (
           <div className="container">
             <div className="item">
@@ -71,19 +71,20 @@ export default function Works() {
                   <h2>{d.title}</h2>
                   <p> {d.desc}
                   </p>
-                  <a href={d.link} target="_blank" rel='noopener noreferrer' className='projectLink'><span>Link</span></a>
                 </div>
               </div>
               <div className="right">
+              <a href={d.link} target="_blank" rel='noopener noreferrer' className='projectLink'>
                 <img src={d.img}
                   alt="" />
+                  </a>
               </div>
             </div>
           </div>
         ))}
       </div>
       {/* <img src={arrow} className="arrow left" alt="" onClick={() => handleClick("left")}/> */}
-      <img src={arrow} className="arrow right" alt="" onClick={() => handleClick()}/>
+      <img src={arrow} className="arrow right" alt="" onClick={() => handleClick()} />
     </div>
   )
 }
