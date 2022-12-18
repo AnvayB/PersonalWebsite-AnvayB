@@ -83,10 +83,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <!-- use healing from Lightroom to lessen face blemishes -->
 
 ## Page 2: Portfolio 
-- Featured -> Education
-- Design -> Languages + Tools (include spoken languages as well) (maybe just languages)
 
-  - **organize into langs and tools**
 <!-- - Content -> Hobbies/Interests
   - fun facts and stuff idk
   - Good at various racquet sports
@@ -102,7 +99,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - learn from lama dev [tutorial](https://youtu.be/hQjlM-8C4Ps?t=2995)
 
 # Analyze Website Traffic
-[options](https://www.hotjar.com/website-tracking/tools/)
+- [Options](https://www.hotjar.com/website-tracking/tools/)
 
 # Fixes
 
