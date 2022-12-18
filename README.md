@@ -151,12 +151,9 @@ Components:
 
 # Fixes
 - Projects in portfolio
-  - hover over project, shows skills ✅
-  - click on container, link to github ✅
+  - add images for all projects
 - Projects page
-  - remove tiny Link ✅
-  - make image be the link to the site ✅
-  - remove Github section ✅
+  - change arrow type on Projects page
 - Arrow
   - add down arrow on all pages ✅
   - format arrow positioning to be same on all screen sizes ✅
