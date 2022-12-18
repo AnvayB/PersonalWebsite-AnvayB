@@ -105,5 +105,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 [options](https://www.hotjar.com/website-tracking/tools/)
 
 # Fixes
+
 - Arrow
   - change arrow type on Projects page
