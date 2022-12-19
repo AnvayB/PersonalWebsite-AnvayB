@@ -7,6 +7,7 @@ import {
   projectPortfolio,
   skillsPortfolio,
   workPortfolio,
+  blank
 } from "../../data";
 
 export default function Portfolio() {
@@ -46,14 +47,15 @@ export default function Portfolio() {
         setData(projectPortfolio);
         break;
       default:
-        setData(workPortfolio);
+        setData(blank);
     }
   }, [selected]);
 
   return (
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1> 
-      <p>Hover over an icon to see my experience</p> <br />
+      <p>Click on a section and</p>
+      <p>hover over an icon to see my experience</p> <br />
       <ul>
         {list.map((item) => (
           <PortfolioList

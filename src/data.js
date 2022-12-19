@@ -13,10 +13,14 @@ import spring from './components/portfolio/portfolioImages/spring.png'
 import vscodeintellij from './components/portfolio/portfolioImages/vscode.png'
 import postman from './components/portfolio/portfolioImages/postman.png'
 import docker from './components/portfolio/portfolioImages/docker.png'
-import isky from './components/portfolio/portfolioImages/isky.png'
-import CC from './components/portfolio/portfolioImages/codecocktails.png'
-import clim8 from './components/portfolio/portfolioImages/weather.png'
+import isky from './components/portfolio/portfolioImages/iskyIcon.png'
+import CC from './components/portfolio/portfolioImages/codecocktailsIcon.png'
+import clim8 from './components/portfolio/portfolioImages/weatherIcon.png'
+import HRPortal from './components/portfolio/portfolioImages/hrportalIcon.png'
+import BB from './components/portfolio/portfolioImages/bbIcon.png'
+import ekea from './components/portfolio/portfolioImages/ekeaIcon.png'
 
+export const blank = []
 
 export const educationPortfolio = [
   {
@@ -139,7 +143,7 @@ export const projectPortfolio = [
   },
   {
     id: 2,
-    title: "Code Cocktails",
+    title: "Code Cocktail",
     img: CC,
     info: "HTML/JS/CSS, Github",
     link: "https://github.com/Pixie-Sticks2/Code-Cocktails"
@@ -154,24 +158,21 @@ export const projectPortfolio = [
   {
     id: 4,
     title: "HR Portal",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    img: HRPortal,
     info: "ReactJS, Spring Boot",
     link: "https://github.com/HRPortal-Anvay/recaptchav1"
   },
   {
     id: 5,
     title: "EKEA",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    img: ekea,
     info: "Dart, Flutter, Android Studio",
     link: "https://github.com/elizabethhillman/cmpe137_team4"
   },
   {
     id: 6,
     title: "Brick Breaker",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    img: BB,
     info: "Java, JavaFX, Github",
     link: "https://github.com/AnvayB/Brick-Breaker2"
   },
