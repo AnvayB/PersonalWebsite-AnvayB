@@ -93,9 +93,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Page 3: Projects
 - Use carousel from bootstrap or mui
 
-# Page 4: Recommendations (w/ LinkedIn icon links)
+## Page 4: Recommendations (w/ LinkedIn icon links)
 
-# Page 5: Contact Me (use Email.js)
+## Page 5: Contact Me (use Email.js)
 - learn from lama dev [tutorial](https://youtu.be/hQjlM-8C4Ps?t=2995)
 
 # Analyze Website Traffic
