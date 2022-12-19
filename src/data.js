@@ -19,6 +19,7 @@ import clim8 from './components/portfolio/portfolioImages/weatherIcon.png'
 import HRPortal from './components/portfolio/portfolioImages/hrportalIcon.png'
 import BB from './components/portfolio/portfolioImages/bbIcon.png'
 import ekea from './components/portfolio/portfolioImages/ekeaIcon.png'
+import SET from './components/portfolio/portfolioImages/setIcon.png'
 
 export const blank = []
 
@@ -179,8 +180,7 @@ export const projectPortfolio = [
   {
     id: 7,
     title: "Spartan Expense Tracker",
-    img:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+    img: SET,
     info: "Java, Java Swing, Github",
     link: "https://github.com/AnvayB/Spartan-Expense-Tracker-GUI"
   },
