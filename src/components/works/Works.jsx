@@ -17,9 +17,9 @@ export default function Works() {
       icon: desktop,
       title: "iSky",
       desc:
-        "A COVID-conscious vacation planner for post-quarantine travelers built using ReactJS and Material UI",
+        "A COVID-conscious vacation planner for post-quarantine travelers built using ReactJS and Material UI. The deployment of this project is temporarily not working due to outdated API dependencies. It will be back to working soon.",
       img: isky,
-      link: "https://isky.netlify.app/"
+      link: "https://github.com/Group22-Senior-Project/iSky"
     },
     {
       id: "2",
