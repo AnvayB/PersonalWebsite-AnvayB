@@ -28,6 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
     @include mobile {
       flex-direction: column;
@@ -45,6 +46,8 @@
       padding: 20px;
       transition: all .75s ease;
       margin: 0 20px;
+      // background-color: rgb(199, 211, 252);
+      border: 1px solid rgb(197, 197, 255);
 
       // &.featured {
       //   width: 300px;

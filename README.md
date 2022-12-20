@@ -75,14 +75,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 [![Netlify Status](https://api.netlify.com/api/v1/badges/075cb6b3-5034-43fa-aec6-017a6518dcb5/deploy-status)](https://app.netlify.com/sites/anvayb/deploys)
 
 # Notes:
-
 <!-- make sure to cover main points from [this](https://jonathanlu.herokuapp.com/) -->
 
-## Page 1: Intro
-- change favicon.ico into smth else
+<!-- ## Page 1: Intro -->
 <!-- use healing from Lightroom to lessen face blemishes -->
 
-## Page 2: Portfolio 
+<!-- ## Page 2: Portfolio  -->
 
 <!-- - Content -> Hobbies/Interests
   - fun facts and stuff idk
@@ -93,15 +91,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Page 3: Projects
 - Use carousel from bootstrap or mui
 
-## Page 4: Recommendations (w/ LinkedIn icon links)
-
 ## Page 5: Contact Me (use Email.js)
 - learn from lama dev [tutorial](https://youtu.be/hQjlM-8C4Ps?t=2995)
 
 # Analyze Website Traffic
 - [Options](https://www.hotjar.com/website-tracking/tools/)
 
-# Fixes
-
-- Arrow
-  - change arrow type on Projects page
