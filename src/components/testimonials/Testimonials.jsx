@@ -12,7 +12,7 @@ export default function Testimonials() {
       title: "Campus Operations Manager",
       company: "RippleMatch",
       img:
-        "https://media-exp1.licdn.com/dms/image/C4E03AQGmzq3jFPXJqg/profile-displayphoto-shrink_200_200/0/1614100631832?e=1675296000&v=beta&t=sQZ0qymlkIi1xsaalsyXK6XFiXdlH5JYj4lmFSpYiUo",
+        "https://media.licdn.com/dms/image/C4E03AQGmzq3jFPXJqg/profile-displayphoto-shrink_400_400/0/1614100631832?e=1680739200&v=beta&t=2LMI9uQm4he0QprXIrcHs8PwEOEBY44Ktyym43PKKfU",
       icon: linkedin,
       link: "https://www.linkedin.com/in/diego-fierst-garcia/",
       desc:

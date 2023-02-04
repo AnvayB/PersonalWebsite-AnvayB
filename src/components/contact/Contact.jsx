@@ -1,15 +1,15 @@
 import './Contact.scss'
 import shake from '../../images/shake.svg'
-import { useState } from 'react'
+// import { useState } from 'react'
 
 export default function Contact() {
 
-  const [message, setMessage] = useState(false)
+  // const [message, setMessage] = useState(false)
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setMessage(true)
-  }
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setMessage(true)
+  // }
 
   return (
     <div className='contact' id='contact'>
@@ -28,12 +28,15 @@ export default function Contact() {
           <br /> <br /> Or if you want to offer me a job straightaway, I'll take that too. 😄
           </p>
         {/*  */}
-        <form onSubmit={handleSubmit}>
-          <input type="text" placeholder='Email' />
-          <textarea placeholder='Message'></textarea>
-          <button type='submit'>Send</button>
-          {message && <span>Thanks, I'll reply ASAP</span>}
+        <form>
+          <input type="text" placeholder='Name' name='user_name' />
+          <input type="text" placeholder='Subject' name='user_subject' />
+          <input type="email" placeholder='Email' name='user_email' />
+          <textarea placeholder=' Message' name='message' rows="5"></textarea>
+          <button type="submit">Submit</button>
+
         </form>
+        
       </div>
     </div>
   )

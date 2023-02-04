@@ -17,7 +17,7 @@ export default function Works() {
       icon: desktop,
       title: "iSky",
       desc:
-        "A COVID-conscious vacation planner for post-quarantine travelers built using ReactJS and Material UI. The deployment of this project is temporarily not working due to outdated API dependencies. It will be back to working soon.",
+        "A COVID-conscious vacation planner for post-quarantine travelers built using ReactJS and Material UI. The deployment of this project is temporarily not working due to outdated API dependencies.",
       img: isky,
       link: "https://github.com/Group22-Senior-Project/iSky"
     },
