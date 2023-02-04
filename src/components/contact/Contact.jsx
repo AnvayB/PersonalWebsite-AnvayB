@@ -1,14 +1,28 @@
 import './Contact.scss'
 import shake from '../../images/shake.svg'
-import { useState } from 'react'
+import down from '../../images/down.png'
+import { useRef, useState } from 'react'
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
 
-  const [message, setMessage] = useState(false)
+  const formRef = useRef()
+  const [thanks, setThanks] = useState(false)
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setMessage(true)
+    e.preventDefault()
+    setThanks(true)
+    emailjs.sendForm(
+      'service_xeht855',
+      'template_2q6uc8b',
+      formRef.current,
+      'SZctaaxt7KKpSXd4C'
+      )
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   }
 
   return (
@@ -17,23 +31,24 @@ export default function Contact() {
         <img src={shake} alt="" />
       </div>
       <div className="right">
-        <h2>Contact</h2>
-        {/*  */}
-        <br />
+        <h1>Contact</h1>
         <p align="center">
           Hi! <br />
           Thank you for visiting my website. <br /> <br />
-          This Contact section is still under construction, but it will be up and working soon! <br /> <br />
-          Until then, please contact me at <a href='mailto:anvay.bhanap@gmail.com'>anvay.bhanap@gmail.com</a> for any questions.
-          <br /> <br /> Or if you want to offer me a job straightaway, I'll take that too. 😄
+          If you have any questions or comments, <br /> please fill out the form below and <br /> I'll get back to you as soon as I can!
           </p>
-        {/*  */}
-        <form onSubmit={handleSubmit}>
-          <input type="text" placeholder='Email' />
-          <textarea placeholder='Message'></textarea>
-          <button type='submit'>Send</button>
-          {message && <span>Thanks, I'll reply ASAP</span>}
+        <form ref={formRef} onSubmit={handleSubmit}>
+          <input type="text" placeholder='Name' name='user_name' />
+          <input type="text" placeholder='Subject' name='user_subject' />
+          <input type="email" placeholder='Email' name='user_email' />
+          <textarea placeholder=' Message' name='message' rows="5"></textarea>
+          <button type="submit">Submit</button>
+          {thanks && <span>Thanks for the message!</span>}
         </form>
+        
+        <a href="#intro" className='arrow' title='Return to Top'>
+        <img src={down} alt="" />
+      </a>
       </div>
     </div>
   )
