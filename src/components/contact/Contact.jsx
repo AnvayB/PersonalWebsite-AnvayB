@@ -1,15 +1,28 @@
 import './Contact.scss'
 import shake from '../../images/shake.svg'
-// import { useState } from 'react'
+import { useRef, useState } from 'react'
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
 
-  // const [message, setMessage] = useState(false)
+  const formRef = useRef()
+  const [thanks, setThanks] = useState(false)
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   setMessage(true)
-  // }
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setThanks(true)
+    // emailjs.sendForm(
+    //   'service_xeht855',
+    //   'template_2q6uc8b',
+    //   formRef.current,
+    //   'SZctaaxt7KKpSXd4C'
+    //   )
+    //   .then((result) => {
+    //       console.log(result.text);
+    //   }, (error) => {
+    //       console.log(error.text);
+    //   });
+  }
 
   return (
     <div className='contact' id='contact'>
@@ -23,12 +36,10 @@ export default function Contact() {
         <p align="center">
           Hi! <br />
           Thank you for visiting my website. <br /> <br />
-          This Contact section is still under construction, but it will be up and working soon! <br /> <br />
-          Until then, please contact me at <a href='mailto:anvay.bhanap@gmail.com'>anvay.bhanap@gmail.com</a> for any questions.
-          <br /> <br /> Or if you want to offer me a job straightaway, I'll take that too. 😄
+          If you have any questions or comments, <br /> please fill out the form below and <br /> I'll get back to you as soon as I can!
           </p>
         {/*  */}
-        <form>
+        <form ref={formRef} onSubmit={handleSubmit}>
           <input type="text" placeholder='Name' name='user_name' />
           <input type="text" placeholder='Subject' name='user_subject' />
           <input type="email" placeholder='Email' name='user_email' />
@@ -36,6 +47,7 @@ export default function Contact() {
           <button type="submit">Submit</button>
 
         </form>
+        {thanks && <span>Thanks for the message!</span>}
         
       </div>
     </div>

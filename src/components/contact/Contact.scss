@@ -36,13 +36,14 @@
 
       input{
         width: 50%;
-        height: 50px;
+        height: 30px;
         border: none;
         border-bottom: 1px solid black;
         margin: 10px 0px;
         margin-bottom: 30px;
         font-size: 14px;
-        padding-left: 10px;
+        padding-left: 5px;
+        outline: none;
       }
   
       textarea{
@@ -56,9 +57,18 @@
         padding: 15px;
         background-color: crimson;
         color: white;
-        font-weight: 500;
+        font-weight: 700;
         cursor: pointer;
       }
+    }
+
+    span {
+      position: relative;
+      color: green;
+      z-index: 1;
+      bottom: 3.5%;
+      margin: 0; padding: 0;
+      
     }
 
     
