@@ -1,5 +1,6 @@
 import './Contact.scss'
 import shake from '../../images/shake.svg'
+import down from '../../images/down.png'
 import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 
@@ -11,17 +12,17 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault()
     setThanks(true)
-    // emailjs.sendForm(
-    //   'service_xeht855',
-    //   'template_2q6uc8b',
-    //   formRef.current,
-    //   'SZctaaxt7KKpSXd4C'
-    //   )
-    //   .then((result) => {
-    //       console.log(result.text);
-    //   }, (error) => {
-    //       console.log(error.text);
-    //   });
+    emailjs.sendForm(
+      'service_xeht855',
+      'template_2q6uc8b',
+      formRef.current,
+      'SZctaaxt7KKpSXd4C'
+      )
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   }
 
   return (
@@ -30,15 +31,12 @@ export default function Contact() {
         <img src={shake} alt="" />
       </div>
       <div className="right">
-        <h2>Contact</h2>
-        {/*  */}
-        <br />
+        <h1>Contact</h1>
         <p align="center">
           Hi! <br />
           Thank you for visiting my website. <br /> <br />
           If you have any questions or comments, <br /> please fill out the form below and <br /> I'll get back to you as soon as I can!
           </p>
-        {/*  */}
         <form ref={formRef} onSubmit={handleSubmit}>
           <input type="text" placeholder='Name' name='user_name' />
           <input type="text" placeholder='Subject' name='user_subject' />
@@ -47,8 +45,10 @@ export default function Contact() {
           <button type="submit">Submit</button>
           {thanks && <span>Thanks for the message!</span>}
         </form>
-        {/* {thanks && <span>Thanks for the message!</span>} */}
         
+        <a href="#intro" className='arrow' title='Return to Top'>
+        <img src={down} alt="" />
+      </a>
       </div>
     </div>
   )

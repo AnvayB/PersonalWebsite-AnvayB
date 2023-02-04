@@ -25,15 +25,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    position: relative;
 
     h2 {
       font-size: 30px;
     }
 
     form{
-      margin-top: 20px;
+      // margin-top: 20px;
       position: relative;
+
       // align-items: center;
       // justify-content: center;
 
@@ -42,16 +44,19 @@
         height: 30px;
         border: none;
         border-bottom: 1px solid black;
-        margin: 10px 0px;
+        // margin: 10px 0px;
         margin-bottom: 30px;
+        margin-left: 1vw;
         font-size: 14px;
         padding-left: 5px;
         outline: none;
+        // font-size: 15px;
       }
   
       textarea{
         width: 90%;
         margin-bottom: 20px;
+        margin-left: 1vw;
       }
 
       button {
@@ -62,6 +67,7 @@
         color: white;
         font-weight: 700;
         cursor: pointer;
+        margin-left: 1vw;
       }
       
       span {
@@ -71,10 +77,26 @@
       color: green;
       z-index: 1;
       bottom: 3.5%;
-      left: 35%;
+      left: 40%;
     }
     }
 
+    .arrow {
+      position: absolute;
+      rotate: 180deg;
+      right: 3vw;
+      bottom: 3vh;
+      // border: solid 1px black;
+      // padding: 1.5%;
+      border-radius: 100%;
+      // background-color: lightgrey;
+
+      img {
+        position: relative;
+        top: .5vh;
+        width: 30px;
+      }
+    }
     
 
     

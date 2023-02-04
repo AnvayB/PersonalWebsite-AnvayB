@@ -15,13 +15,6 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <a href="#intro" className="logo">AnvayB</a>
 
           <div className="socials">
-            <a target="_blank" rel='noopener noreferrer' href="https://www.instagram.com/anvayzing/" title='Instagram'>
-              <div className="itemContainer">
-                <Instagram className='icon' />
-                {/* <span>@anvayzing</span> */}
-              </div>
-            </a>
-
             <a target="_blank" rel='noopener noreferrer' href="https://www.linkedin.com/in/anvayb/" title='LinkedIn'>
               <div className="itemContainer">
                 <LinkedIn className='icon' />
@@ -39,6 +32,13 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <a target="_blank" rel='noopener noreferrer' href="https://docs.google.com/document/d/1X9KfnHKKW_6LENlBcrwiAOLfBRHFmE5nap2sp8IKnw4/edit?usp=sharing" title='Resume'>
               <div className="itemContainer">
                 <img src={pdf} alt="" className="icon" width={'20px'} />
+              </div>
+            </a>
+
+            <a target="_blank" rel='noopener noreferrer' href="https://www.instagram.com/anvayzing/" title='Instagram'>
+              <div className="itemContainer">
+                <Instagram className='icon' />
+                {/* <span>@anvayzing</span> */}
               </div>
             </a>
 
