@@ -33,6 +33,9 @@
 
     form{
       margin-top: 20px;
+      position: relative;
+      // align-items: center;
+      // justify-content: center;
 
       input{
         width: 50%;
@@ -60,16 +63,19 @@
         font-weight: 700;
         cursor: pointer;
       }
-    }
-
-    span {
-      position: relative;
+      
+      span {
+      position: absolute;
+      align-items: center;
+      justify-content: center;
       color: green;
       z-index: 1;
       bottom: 3.5%;
-      margin: 0; padding: 0;
-      
+      left: 35%;
     }
+    }
+
+    
 
     
   }

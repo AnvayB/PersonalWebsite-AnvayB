@@ -45,9 +45,9 @@ export default function Contact() {
           <input type="email" placeholder='Email' name='user_email' />
           <textarea placeholder=' Message' name='message' rows="5"></textarea>
           <button type="submit">Submit</button>
-
+          {thanks && <span>Thanks for the message!</span>}
         </form>
-        {thanks && <span>Thanks for the message!</span>}
+        {/* {thanks && <span>Thanks for the message!</span>} */}
         
       </div>
     </div>
