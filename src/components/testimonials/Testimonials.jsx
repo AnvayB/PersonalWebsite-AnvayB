@@ -2,6 +2,8 @@ import './Testimonials.scss'
 import rArrow from '../../images/right-arrow.png';
 import linkedin from "../../images/linkedin.png";
 import down from '../../images/down.png'
+import sambprasad from './images/sambprasad.jpeg'
+import diego from './images/diegofgarcia.jpeg'
 
 export default function Testimonials() {
 
@@ -11,8 +13,7 @@ export default function Testimonials() {
       name: "Diego Fierst Garcia",
       title: "Campus Operations Manager",
       company: "RippleMatch",
-      img:
-        "https://media.licdn.com/dms/image/C4E03AQGmzq3jFPXJqg/profile-displayphoto-shrink_400_400/0/1614100631832?e=1680739200&v=beta&t=2LMI9uQm4he0QprXIrcHs8PwEOEBY44Ktyym43PKKfU",
+      img: diego,
       icon: linkedin,
       link: "https://www.linkedin.com/in/diego-fierst-garcia/",
       desc:
@@ -23,8 +24,7 @@ export default function Testimonials() {
       name: "Sambprasad Kuvalekar",
       title: "Founder and Managing Director",
       company: "Prismatic Softwares Pvt. Ltd.",
-      img:
-        "https://media.licdn.com/dms/image/D4D03AQGUc6g4iEw4jg/profile-displayphoto-shrink_800_800/0/1668430554172?e=1676505600&v=beta&t=4DT_p0Kx2NTZK4GRwYIIp6mESeRIXswQ6I5rPRM4bSY",
+      img: sambprasad,
       icon: linkedin,
       link: "https://www.linkedin.com/in/sambprasad/",
       desc:

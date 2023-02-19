@@ -28,9 +28,13 @@
     justify-content: space-evenly;
     position: relative;
 
-    h2 {
-      font-size: 30px;
-    }
+    // h1 {
+    //   font-size: 30px;
+    // }
+
+   li {
+    list-style-type: circle;
+   }
 
     form{
       // margin-top: 20px;

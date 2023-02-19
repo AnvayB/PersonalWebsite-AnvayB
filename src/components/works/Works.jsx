@@ -17,7 +17,7 @@ export default function Works() {
       icon: desktop,
       title: "iSky",
       desc:
-        "A COVID-conscious vacation planner for post-quarantine travelers built using ReactJS and Material UI. The deployment of this project is temporarily not working due to outdated API dependencies.",
+        "A COVID-conscious vacation planner for post-quarantine travelers built using ReactJS and Material UI.",
       img: isky,
       link: "https://github.com/Group22-Senior-Project/iSky"
     },
@@ -59,7 +59,7 @@ export default function Works() {
 
   return (
     <div className='works' id='works'>
-      <h1>Projects</h1>
+      <h1>Websites</h1>
       <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
         {data.map(d => (
           <div className="container">
