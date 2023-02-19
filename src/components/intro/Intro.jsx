@@ -40,7 +40,8 @@ export default function Intro() {
 
       <div className="right">
       <div className="imgContainer">
-          <img src={Face} alt="" className="face" />
+        <img src={Face} alt="" className="face" />
+        <p className="shh">Don't look, <br /> I'm loading!</p>
         </div>
       </div>
     </div>
