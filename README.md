@@ -80,8 +80,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <!-- ## Page 1: Intro -->
 <!-- use healing from Lightroom to lessen face blemishes -->
 
-<!-- ## Page 2: Portfolio  -->
-
 <!-- - Content -> Hobbies/Interests
   - fun facts and stuff idk
   - Good at various racquet sports
@@ -90,9 +88,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Page 3: Projects
 - Use carousel from bootstrap or mui
-
-## Page 5: Contact Me (use Email.js)
-- learn from lama dev [tutorial](https://youtu.be/hQjlM-8C4Ps?t=2995)
 
 # Analyze Website Traffic
 - [Options](https://www.hotjar.com/website-tracking/tools/)
