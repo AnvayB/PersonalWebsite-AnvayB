@@ -41,21 +41,19 @@ export default function Contact() {
       </div>
       <div className="right">
         <h1>Contact</h1>
-        <p align="center">
-          Hi! <br />
-          Thank you for visiting my website. <br /> <br />
-          If you have any questions or comments, <br /> please fill out the form below and <br /> I'll get back to you as soon as I can!
+        <p align="left">
+          Thank you for visiting my website!
           </p>
-          {/* <p>
+          <pre>
             If you:
             <ul>
-              <li>Have any questions about my experience</li>
-              <li>Have tips on how I could improve this website</li>
-              <li>Want to offer me a job straightaway</li>
-              <li>Just want to say Hi</li>
-              then please fill out the form below and <br /> I'll get back to you as soon as I can!
-            </ul>
-          </p> */}
+              <li>• Have any questions about my experience</li>
+              <li>• Have tips on how I could improve this website</li>
+              <li>• Want to offer me a job straightaway</li>
+              <li>• Just want to say Hi</li></ul>
+              then please fill out the form below and <br />
+              I'll get back to you as soon as I can!
+          </pre>
         <form ref={formRef} onSubmit={handleSubmit}>
           <input 
             type="text" 
@@ -73,7 +71,7 @@ export default function Contact() {
             name='user_email'
           />
           <textarea 
-            placeholder=' Message' 
+            placeholder='Message' 
             name='message' 
             rows="5"
             onChange={handleChange}

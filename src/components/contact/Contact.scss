@@ -28,12 +28,19 @@
     justify-content: space-evenly;
     position: relative;
 
-    // h1 {
-    //   font-size: 30px;
-    // }
+    h1 {
+      position: relative;
+      bottom: 3%;
+    }
 
-   li {
-    list-style-type: circle;
+   pre {
+    ul { margin: 10px 0;
+      li {
+        margin: 15px 0;
+        position: relative;
+        right: 5%;
+       }
+     }
    }
 
     form{
@@ -61,6 +68,7 @@
         width: 90%;
         margin-bottom: 20px;
         margin-left: 1vw;
+        padding-left: .3vw;
       }
 
       button {
@@ -94,6 +102,9 @@
       // padding: 1.5%;
       border-radius: 100%;
       // background-color: lightgrey;
+      &::-webkit-scrollbar {
+        display: none;
+      }
 
       img {
         position: relative;
