@@ -5,6 +5,7 @@ import {
 } from '@material-ui/icons';
 // import Spotify from '../../images/Spotify.png'
 import pdf from '../../images/pdf.png';
+import resume from '../../images/Anvay_Bhanap_Resume.pdf'
 
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
@@ -29,18 +30,18 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
               </div>
             </a>
 
-            <a target="_blank" rel='noopener noreferrer' href="https://docs.google.com/document/d/1X9KfnHKKW_6LENlBcrwiAOLfBRHFmE5nap2sp8IKnw4/edit?usp=sharing" title='Resume'>
+            <a target="_blank" rel='noopener noreferrer' href={resume} title='Resume'>
               <div className="itemContainer">
                 <img src={pdf} alt="" className="icon" width={'20px'} />
               </div>
             </a>
 
-            <a target="_blank" rel='noopener noreferrer' href="https://www.instagram.com/anvayzing/" title='Instagram'>
+            {/* <a target="_blank" rel='noopener noreferrer' href="https://www.instagram.com/anvayzing/" title='Instagram'>
               <div className="itemContainer">
                 <Instagram className='icon' />
-                {/* <span>@anvayzing</span> */}
+                <span>@anvayzing</span> 
               </div>
-            </a>
+            </a> */}
 
              {/* <a target="_blank" rel='noopener noreferrer' href="https://open.spotify.com/user/22yytji6kwymjgjkrxficzvay?si=ef7d34a5c9f84f3c">
               <div className="itemContainer">
