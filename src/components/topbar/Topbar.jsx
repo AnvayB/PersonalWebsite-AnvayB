@@ -1,6 +1,6 @@
 import './Topbar.scss'
 import {
-  Instagram, LinkedIn, GitHub,
+  LinkedIn, GitHub,
   // PlayCircleOutline
 } from '@material-ui/icons';
 // import Spotify from '../../images/Spotify.png'
