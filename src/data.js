@@ -22,6 +22,9 @@ import ekea from './components/portfolio/portfolioImages/ekeaIcon.png'
 import SET from './components/portfolio/portfolioImages/setIcon.png'
 import fc from './components/portfolio/portfolioImages/fc.png'
 import chykwest from './components/portfolio/portfolioImages/chykwest.png'
+import cmlogo from './components/portfolio/portfolioImages/cmlogo.png'
+import fclogo from './components/portfolio/portfolioImages/fclogo.png'
+
 
 export const blank = []
 
@@ -54,7 +57,7 @@ export const workPortfolio = [
     id: 1,
     title: "CHYK West",
     subheading: "(freelance)",
-    img: chykwest,
+    img: cmlogo,
     info: "Jun. 2023 - Present",
     link: "https://chykwest.org/"
   },
@@ -62,7 +65,7 @@ export const workPortfolio = [
     id: 2,
     title: "FiduciaryChat",
     subheading: "(freelance)",
-    img: fc,
+    img: fclogo,
     info: "May 2023 - Aug. 2023",
     link: "https://anvayb.github.io/FiduciaryChat/"
   },
