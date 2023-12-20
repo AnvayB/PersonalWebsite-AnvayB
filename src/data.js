@@ -20,6 +20,11 @@ import HRPortal from './components/portfolio/portfolioImages/hrportalIcon.png'
 import BB from './components/portfolio/portfolioImages/bbIcon.png'
 import ekea from './components/portfolio/portfolioImages/ekeaIcon.png'
 import SET from './components/portfolio/portfolioImages/setIcon.png'
+import fc from './components/portfolio/portfolioImages/fc.png'
+import chykwest from './components/portfolio/portfolioImages/chykwest.png'
+import cmlogo from './components/portfolio/portfolioImages/cmlogo.png'
+import fclogo from './components/portfolio/portfolioImages/fclogo.png'
+
 
 export const blank = []
 
@@ -28,22 +33,21 @@ export const educationPortfolio = [
     id: 1,
     title: "San Jose State University",
     img: sjsu,
-    info: "Aug 2018 - Dec 2022",
+    info: "Aug. 2018 - Dec. 2022",
     link: "https://www.sjsu.edu/"
   },
   {
     id: 2,
     title: "Code Fellows",
-    img:
-      cf,
-    info: "Jun 2021 - Aug 2021",
+    img: cf,
+    info: "Jun. 2021 - Aug. 2021",
     link: "https://www.codefellows.org/" 
   },
   {
     id: 3,
     title: "Milpitas High School",
     img: mhs,
-    info: "Aug 2014 - Jun 2018",
+    info: "Aug. 2014 - Jun. 2018",
     link: "https://mhs.musd.org/"
   },
 ];
@@ -51,23 +55,39 @@ export const educationPortfolio = [
 export const workPortfolio = [
   {
     id: 1,
-    title: "Prismatic Softwares Pvt. Ltd.",
-    img: prismatic,
-    info: "Jun 2022 - Aug 2022",
-    link: "https://www.prissoft.net/"
+    title: "CHYK West",
+    subheading: "(freelance)",
+    img: cmlogo,
+    info: "Jun. 2023 - Present",
+    link: "https://chykwest.org/"
   },
   {
     id: 2,
-    title: "RippleMatch",
-    img: rm,
-    info: "Jan 2021 - Apr 2021",
-    link: "https://ripplematch.com/"
+    title: "FiduciaryChat",
+    subheading: "(freelance)",
+    img: fclogo,
+    info: "May 2023 - Aug. 2023",
+    link: "https://anvayb.github.io/FiduciaryChat/"
   },
   {
     id: 3,
+    title: "Prismatic Softwares Pvt. Ltd.",
+    img: prismatic,
+    info: "Jun. 2022 - Aug. 2022",
+    link: "https://www.prissoft.net/"
+  },
+  {
+    id: 4,
+    title: "RippleMatch",
+    img: rm,
+    info: "Jan. 2021 - Apr. 2021",
+    link: "https://ripplematch.com/"
+  },
+  {
+    id: 5,
     title: "Success Learning Center",
     img: successLC,
-    info: "Jan 2018 - Jun 2018",
+    info: "Jan. 2018 - Jun. 2018",
     link: "http://cliveden.com/"
   },
 ];
