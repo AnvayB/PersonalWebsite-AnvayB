@@ -64,6 +64,7 @@ export default function Portfolio() {
             active={selected === item.id}
             setSelected={setSelected}
             id={item.id}
+            subheading={item.subheading}
           />
         ))}
       </ul>
@@ -76,6 +77,7 @@ export default function Portfolio() {
               alt=""
             />
             <h3>{d.title}</h3>
+            <h5>{d.subheading}</h5>
             <h4>{d.info}</h4>
           </div>
           </a>
