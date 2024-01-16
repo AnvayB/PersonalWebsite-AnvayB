@@ -10,7 +10,7 @@ import rm from './components/portfolio/portfolioImages/rm.png'
 import react from './components/portfolio/portfolioImages/react.png'
 import git from './components/portfolio/portfolioImages/git.png'
 import spring from './components/portfolio/portfolioImages/spring.png'
-import vscodeintellij from './components/portfolio/portfolioImages/vscode.png'
+// import vscodeintellij from './components/portfolio/portfolioImages/vscode.png'
 import postman from './components/portfolio/portfolioImages/postman.png'
 import docker from './components/portfolio/portfolioImages/docker.png'
 import isky from './components/portfolio/portfolioImages/iskyIcon.png'
@@ -20,10 +20,11 @@ import HRPortal from './components/portfolio/portfolioImages/hrportalIcon.png'
 import BB from './components/portfolio/portfolioImages/bbIcon.png'
 import ekea from './components/portfolio/portfolioImages/ekeaIcon.png'
 import SET from './components/portfolio/portfolioImages/setIcon.png'
-import fc from './components/portfolio/portfolioImages/fc.png'
-import chykwest from './components/portfolio/portfolioImages/chykwest.png'
+// import chykwest from './components/portfolio/portfolioImages/chykwest.png'
 import cmlogo from './components/portfolio/portfolioImages/cmlogo.png'
 import fclogo from './components/portfolio/portfolioImages/fclogo.png'
+import wp from './components/portfolio/portfolioImages/wp.png'
+
 
 
 export const blank = []
@@ -98,14 +99,14 @@ export const skillsPortfolio = [
     title: "ReactJS",
     // original background color: #292c34
     img: react,
-    info: "1.5 years"
+    info: "2+ years"
   },
   {
     id: 2,
     title: "HTML/JS/CSS",
     img:
       html,
-    info: "1.5+ years"
+    info: "2+ years"
   },
   {
     id: 3,
@@ -115,16 +116,16 @@ export const skillsPortfolio = [
     info: "2+ years"
   },
   {
-    id: 7,
-    title: "VS Code / IntelliJ",
-    img: vscodeintellij,
-    info: "2 years"
+    id: 4,
+    title: "WordPress",
+    img: wp,
+    info: "1 year"
   },
   {
     id: 5,
     title: "Git & Github",
     img: git,
-    info: "3+ years"
+    info: "4+ years"
   },
   {
     id: 4,
