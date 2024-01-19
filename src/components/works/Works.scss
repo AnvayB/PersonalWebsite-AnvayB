@@ -5,7 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  // font-family: Arial, Helvetica, sans-serif;
   // display: flex;
   // flex-direction: column;
   // align-items: center;
@@ -51,19 +51,19 @@
         > .row {
           // color: white;
           display: flex;
-          flex-direction: column;
+          // flex-direction: column;
           flex-wrap: nowrap;
 
           > .icon {
-            // background: #223;
-            // color: white;
-            // border-radius: 50%;
-            // width: 50px;
+            background: #223;
+            color: white;
+            border-radius: 50%;
+            width: 75px;
             // height: 50px;
-            // display: flex;
-            // justify-content: center;
-            // align-items: center;
-            // margin: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px;
             // z-index: 1;
 
             &:checked { /* Styles for unchecked state */
@@ -72,45 +72,51 @@
           }
 
           > .description {
-            // display: flex;
-            // justify-content: center;
-            // flex-direction: column;
-            // overflow: hidden;
-            // height: 80px;
-            // width: 520px;
-            // opacity: 0;
-            // transition-delay: .3s;
-            // transition: all .3s ease;
+            position: relative;
+            top: 12px;
+            // left: 10px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            overflow: hidden;
+            height: 80px;
+// Description is visible 
+            width: 500px;
+// Icons become circular
+            // width: 0px;
+            opacity: 0;
+            transition-delay: .3s;
+            transition: all .3s ease;
 
             h4 {
-              margin: 10px 0px;
-              // text-transform: uppercase;
+              // margin: 10px 0px;
+              text-transform: uppercase;
             }
 
             p {
-              margin: 10px 0px;
-              // color: #b0b0ba;
+              // margin: 10px 0px;
+              color: #b0b0ba;
             }
           }
         }
       }
 
       input {
-        // display: none;
+        display: none;
         // margin: 3px 3px 0px 5px;
       }
 
       input:checked + label {
-        // width: 700px;
+        width: 700px;
       }
 
       input:checked + label .description {
-        // opacity: 1 !important;
-        // transform: translateY(0) !important;
+        opacity: 1 !important;
+        transform: translateY(0) !important;
       }
 
       input:checked + label .icon {
-        // width: 50px;
+        width: 50px;
       }
 
       .card[for="c1"] {
