@@ -2,12 +2,16 @@
 
 .works {
   background-color: crimson;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  // height: 100vh;
+  // position: relative;
 
   h1 {
     font-size: 50px;
@@ -15,6 +19,8 @@
   }
 
   .wrapper {
+    // border: 2px dashed black;
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -22,10 +28,12 @@
     justify-content: center;
 
     .container {
+      // border: 1px solid blue;
       height: 400px;
       display: flex;
       flex-wrap: nowrap;
       justify-content: start;
+      overflow: visible;
 
       .card {
         width: 80px;
@@ -33,6 +41,7 @@
         background-size: cover;
         cursor: pointer;
         overflow: hidden;
+        border: 1px solid black;
         margin: 0 10px;
         display: flex;
         align-items: flex-end;
@@ -40,75 +49,95 @@
         box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
 
         > .row {
-          color: white;
+          // color: white;
           display: flex;
+          flex-direction: column;
           flex-wrap: nowrap;
 
           > .icon {
-            background: #223;
-            color: white;
-            border-radius: 50%;
-            width: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 15px;
+            // background: #223;
+            // color: white;
+            // border-radius: 50%;
+            // width: 50px;
+            // height: 50px;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+            // margin: 15px;
+            // z-index: 1;
+
+            &:checked { /* Styles for unchecked state */
+              // width: 50px;
+            }
           }
 
           > .description {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            overflow: hidden;
-            height: 80px;
-            width: 520px;
-            opacity: 0;
-            transition-delay: .3s;
-            transition: all .3s ease;
+            // display: flex;
+            // justify-content: center;
+            // flex-direction: column;
+            // overflow: hidden;
+            // height: 80px;
+            // width: 520px;
+            // opacity: 0;
+            // transition-delay: .3s;
+            // transition: all .3s ease;
 
             h4 {
-              text-transform: uppercase;
+              margin: 10px 0px;
+              // text-transform: uppercase;
             }
 
             p {
-              color: #b0b0ba;
+              margin: 10px 0px;
+              // color: #b0b0ba;
             }
           }
         }
       }
 
       input {
-        display: none;
+        // display: none;
+        // margin: 3px 3px 0px 5px;
       }
 
       input:checked + label {
-        width: 700px;
+        // width: 700px;
       }
 
       input:checked + label .description {
-        opacity: 1 !important;
-        transform: translateY(0) !important;
+        // opacity: 1 !important;
+        // transform: translateY(0) !important;
       }
 
       input:checked + label .icon {
-        width: 50px;
+        // width: 50px;
       }
 
       .card[for="c1"] {
-        background-image: url('./projectImages/isky.png');
+        // background-image: url('./projectImages/isky.png');
       }
       .card[for="c2"] {
-        background-image: url('./projectImages/codecocktails.png');
+        // background-image: url('./projectImages/codecocktails.png');
       }
       .card[for="c3"] {
-        background-image: url('./projectImages/weather.png');
+        // background-image: url('./projectImages/weather.png');
       }
       .card[for="c4"] {
         background-image: url();
       }
     }
   }
+
 }
+
+
+
+
+
+
+
+
+
 a.arrow {
   // position: relative;
   // top: 45%;

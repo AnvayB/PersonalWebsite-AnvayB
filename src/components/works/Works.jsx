@@ -1,5 +1,5 @@
 import './Works.scss'
-import desktop from "../../images/desktop.png"
+// import desktop from "../../images/desktop.png"
 // import arrow from '../../images/arrow.png'
 import isky from './projectImages/isky.png'
 import CC from './projectImages/codecocktails.png'
@@ -14,28 +14,37 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: desktop,
-      title: "iSky",
+      // icon: desktop,
+      title: "Winter",
       desc:
-        "A COVID-conscious vacation planner for post-quarantine travelers built using ReactJS and Material UI.",
+        "Winter has so much to offer - creative activities",
       img: isky,
       link: "https://github.com/Group22-Senior-Project/iSky"
     },
     {
       id: "2",
-      icon: desktop,
-      title: "Code Cocktails",
+      // icon: desktop,
+      title: "Digital Technology",
       desc:
-        "An engaging web application that provides the user with simple cocktail recipes based on certain input criteria built with vanilla JS, HTML, and CSS",
+        "Gets better every day - stay tuned",
       img: CC,
       link: "https://pixie-sticks2.github.io/Code-Cocktails/"
     },
     {
       id: "3",
-      icon: desktop,
-      title: "Clim8",
+      // icon: desktop,
+      title: "Globalization",
       desc:
-        "Simple weather app that informs the user about the current temperature, humidity, and wind speed in the requested location. Built using ReactJS and OpenWeatherMap API",
+        "Help people all over the world",
+      img: weather,
+      link: "https://clim8.netlify.app/"
+    },
+    {
+      id: "4",
+      // icon: desktop,
+      title: "New technologies",
+      desc:
+        "Space engineering becomes more and more advanced",
       img: weather,
       link: "https://clim8.netlify.app/"
     },
