@@ -2,161 +2,149 @@
 
 .works {
   background-color: crimson;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  // font-family: Arial, Helvetica, sans-serif;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  // height: 100vh;
+  // position: relative;
 
   h1 {
     font-size: 50px;
     position: relative;
-    bottom: 45%;
   }
 
-  .arrow {
-    height: 50px;
-
-    position: absolute;
-    cursor: pointer;
-
-    @include mobile {
-      // display: none;
-      margin-top: 130%;
-      position: relative;
-      left: 0%;
-    }
-
-
-    &.left {
-      left: 100px;
-      transform: rotateY(180deg);
-    }
-
-    &.right {
-      right: 100px;
-    }
-  }
-
-  .slider {
-    height: 350px;
+  .wrapper {
+    // border: 2px dashed black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
     display: flex;
-    position: absolute;
-    left: 0;
-    transition: all 1s ease-out;
-
-    @include mobile {
-      height: 100vw;
-      justify-content: center;
-      // flex-direction: column;
-    }
-
+    align-items: center;
+    justify-content: center;
 
     .container {
-      width: 100vw;
+      // border: 1px solid blue;
+      height: 400px;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      flex-wrap: nowrap;
+      justify-content: start;
+      overflow: visible;
 
-      .item {
-        width: 960px;
-        height: 100%;
-        background-color: white;
-        border-radius: 20px;
+      .card {
+        width: 80px;
+        border-radius: 2rem;
+        background-size: cover;
+        cursor: pointer;
+        overflow: hidden;
+        border: 1px solid black;
+        margin: 0 10px;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-end;
+        transition: .6s cubic-bezier(.28,-0.03,0,.99);
+        box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
 
-        @include mobile {
-          width: 90%;
-          height: 90%;
-          margin: 20px 0;
-        }
-
-
-        .left {
-          flex: 4;
-          height: 80%;
+        > .row {
+          // color: white;
           display: flex;
-          align-items: center;
-          justify-content: center;
-          // background-color: green;
-
-          .leftContainer {
-            width: 90%;
-            height: 70%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-
-            .imgContainer {
-              width: 40px;
-              height: 40px;
-              border-radius: 50%;
-              background-color: rgb(245, 179, 155);
-              display: flex;
-              align-items: center;
-              justify-content: center;
-
-              img {
-                width: 27px;
-
-
-              }
-            }
-
-            .projectLink {
-              color: black;
-            }
-
-          }
-        }
-
-        h2 {
-          font-size: 20px;
-
-        }
-
-        p {
-          font-size: 13px;
-          //potential: 
-          // @include mobile {
-          //   display: none;
-          // }
-          //and then reduce height of project
-        }
-
-        // span {
-        //   font-size: 12px;
-        //   font-weight: 600;
-        //   text-decoration: underline;
-        //   cursor: pointer;
-        // }
-
-        .right {
-          flex: 8;
-          height: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          // flex-direction: column;
+          flex-wrap: nowrap;
           overflow: hidden;
-          cursor: pointer;
-          // background-color: yellow;
 
-          img {
-            width: 100%;
-            position: relative;
-            top: 2px;
-            // object-fit: cover;
+          > .icon {
+            background: #223;
+            color: white;
+            border-radius: 50%;
+            width: 75px;
+            // height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px;
+            // z-index: 1;
 
+            &:checked { /* Styles for unchecked state */
+              // width: 50px;
+            }
           }
 
+          > .description {
+            position: relative;
+            top: 12px;
+            // left: 10px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            overflow: hidden;
+            height: 80px;
+// Description is visible 
+            width: 500px;
+// Icons become circular
+            // width: 0px;
+            opacity: 0;
+            transition-delay: .3s;
+            transition: all .3s ease;
 
+            h4 {
+              // margin: 10px 0px;
+              text-transform: uppercase;
+            }
+
+            p {
+              // margin: 10px 0px;
+              color: #b0b0ba;
+            }
+          }
         }
+      }
 
+      input {
+        display: none;
+        // margin: 3px 3px 0px 5px;
+      }
+
+      input:checked + label {
+        width: 700px;
+      }
+
+      input:checked + label .description {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+      }
+
+      input:checked + label .icon {
+        width: 50px;
+      }
+
+      .card[for="c1"] {
+        // background-image: url('./projectImages/isky.png');
+      }
+      .card[for="c2"] {
+        // background-image: url('./projectImages/codecocktails.png');
+      }
+      .card[for="c3"] {
+        // background-image: url('./projectImages/weather.png');
+      }
+      .card[for="c4"] {
+        background-image: url();
       }
     }
   }
+
 }
+
+
+
+
+
+
+
+
+
 a.arrow {
   // position: relative;
   // top: 45%;

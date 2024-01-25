@@ -1,95 +1,140 @@
 import './Works.scss'
-import desktop from "../../images/desktop.png"
-import arrow from '../../images/arrow.png'
+// import desktop from "../../images/desktop.png"
+// import arrow from '../../images/arrow.png'
 import isky from './projectImages/isky.png'
 import CC from './projectImages/codecocktails.png'
 import weather from './projectImages/weather.png'
 // import github from './projectImages/github.png'
-import { useState } from 'react';
+import React, { useState } from 'react';
 import down from '../../images/down.png'
 
 export default function Works() {
 
-  const [currentSlide, setCurrentSlide] = useState(0);
+  const [selectedCard, setSelectedCard] = useState(null);
   const data = [
     {
       id: "1",
-      icon: desktop,
-      title: "iSky",
+      // icon: desktop,
+      title: "Winter",
       desc:
-        "A COVID-conscious vacation planner for post-quarantine travelers built using ReactJS and Material UI.",
+        "Winter has so much to offer - creative activities",
       img: isky,
       link: "https://github.com/Group22-Senior-Project/iSky"
     },
     {
       id: "2",
-      icon: desktop,
-      title: "Code Cocktails",
+      // icon: desktop,
+      title: "Digital Technology",
       desc:
-        "An engaging web application that provides the user with simple cocktail recipes based on certain input criteria built with vanilla JS, HTML, and CSS",
+        "Gets better every day - stay tuned",
       img: CC,
       link: "https://pixie-sticks2.github.io/Code-Cocktails/"
     },
     {
       id: "3",
-      icon: desktop,
-      title: "Clim8",
+      // icon: desktop,
+      title: "Globalization",
       desc:
-        "Simple weather app that informs the user about the current temperature, humidity, and wind speed in the requested location. Built using ReactJS and OpenWeatherMap API",
+        "Help people all over the world",
       img: weather,
       link: "https://clim8.netlify.app/"
     },
-    // {
-    //   id: "4",
-    //   icon: desktop,
-    //   title: "Github",
-    //   desc:
-    //     "",
-    //   img:
-    //     github,
-    //   link: "https://github.com/AnvayB"
-    // }
+    {
+      id: "4",
+      // icon: desktop,
+      title: "New technologies",
+      desc:
+        "Space engineering becomes more and more advanced",
+      img: weather,
+      link: "https://clim8.netlify.app/"
+    },
   ];
-  //when you add another element above here ^^ for the github page, make sure to adjust handleClick to go to 3 instead of 2
-  const handleClick = (way) => {
-    way === "left" ? setCurrentSlide(currentSlide < 0 ? currentSlide - 1 : 2) :
-      setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0)
-    console.log(currentSlide)
-  }
+  // const handleClick = (way) => {
+  //   way === "left" ? setCurrentSlide(currentSlide < 0 ? currentSlide - 1 : 2) :
+  //     setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0)
+  //   console.log(currentSlide)
+  // }
 
   return (
     <div className='works' id='works'>
       <h1>Websites</h1>
-      <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
-        {data.map(d => (
-          <div className="container">
-            <div className="item">
-              <div className="left">
-                <div className="leftContainer">
-                  <div className="imgContainer">
-                    <img src={d.icon} alt="" />
+      <div className="wrapper">
+        <div className="container">
+          {data.map((card) => (
+            <React.Fragment key={card.id}>
+              <input
+                type="radio"
+                name="slide"
+                id={`c${card.id}`}
+                checked={selectedCard === card.id}
+                onChange={() => setSelectedCard(card.id)}
+              />
+              <label htmlFor={`c${card.id}`} className='card'>
+                <div className="row">
+                  <div className="icon">{card.id}</div>
+                  <div className="description">
+                    <h4>{card.title}</h4>
+                    <p>{card.desc}</p>
                   </div>
-                  <h2>{d.title}</h2>
-                  <p> {d.desc}
-                  </p>
                 </div>
-              </div>
-              <div className="right">
-              <a href={d.link} target="_blank" rel='noopener noreferrer' className='projectLink'>
-                <img src={d.img}
-                  alt="" />
-                  </a>
-              </div>
-            </div>
-          </div>
-        ))}
+              </label>
+            </React.Fragment>
+          ))}
+        </div>
       </div>
-      {/* <img src={arrow} className="arrow left" alt="" onClick={() => handleClick("left")}/> */}
-      <img src={arrow} className="arrow right" alt="" onClick={() => handleClick()} />
-
       <a href="#testimonials" className='arrow'>
         <img src={down} alt="" />
       </a>
     </div>
+    // <div className='works' id='works'>
+    //   <h1>Websites</h1>
+    //   <div className="wrapper">
+    //     <div className="container">
+    //       <input type="radio" name="slide" id="c1" />
+    //       <label htmlFor="c1" className='card'>
+    //         <div className="row">
+    //           <div className="icon">1</div>
+    //           <div className="description">
+    //             <h4>Winter</h4>
+    //             <p>Winter has so much to offer - creative activities</p>
+    //           </div>
+    //         </div>
+    //       </label>
+    //       <input type="radio" name="slide" id="c2" />
+    //       <label htmlFor="c2" className='card'>
+    //         <div className="row">
+    //           <div className="icon">2</div>
+    //           <div className="description">
+    //             <h4>Digital Technology</h4>
+    //             <p>Gets better everyday - stay tuned</p>
+    //           </div>
+    //         </div>
+    //       </label>
+    //       <input type="radio" name="slide" id="c3" />
+    //       <label htmlFor="c3" className='card'>
+    //         <div className="row">
+    //           <div className="icon">3</div>
+    //           <div className="description">
+    //             <h4>Globalization</h4>
+    //             <p>help people all over the world</p>
+    //           </div>
+    //         </div>
+    //       </label>
+    //       <input type="radio" name="slide" id="c4" />
+    //       <label htmlFor="c4" className='card'>
+    //         <div className="row">
+    //           <div className="icon">4</div>
+    //           <div className="description">
+    //             <h4>New Technologies</h4>
+    //             <p>Space engineering becomes more and more advanced</p>
+    //           </div>
+    //         </div>
+    //       </label>
+    //     </div>
+    //   </div>
+      
+
+      
+
   )
 }

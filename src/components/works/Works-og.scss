@@ -1,0 +1,177 @@
+@import "../../global.scss";
+
+.works {
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  h1 {
+    font-size: 50px;
+    position: relative;
+    bottom: 45%;
+  }
+
+  .arrow {
+    height: 50px;
+
+    position: absolute;
+    cursor: pointer;
+
+    @include mobile {
+      // display: none;
+      margin-top: 130%;
+      position: relative;
+      left: 0%;
+    }
+
+
+    &.left {
+      left: 100px;
+      transform: rotateY(180deg);
+    }
+
+    &.right {
+      right: 100px;
+    }
+  }
+
+  .slider {
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+
+    @include mobile {
+      height: 100vw;
+      justify-content: center;
+      // flex-direction: column;
+    }
+
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        width: 960px;
+        height: 100%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include mobile {
+          width: 90%;
+          height: 90%;
+          margin: 20px 0;
+        }
+
+
+        .left {
+          flex: 4;
+          height: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          // background-color: green;
+
+          .leftContainer {
+            width: 90%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .imgContainer {
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              background-color: rgb(245, 179, 155);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              img {
+                width: 27px;
+
+
+              }
+            }
+
+            .projectLink {
+              color: black;
+            }
+
+          }
+        }
+
+        h2 {
+          font-size: 20px;
+
+        }
+
+        p {
+          font-size: 13px;
+          //potential: 
+          // @include mobile {
+          //   display: none;
+          // }
+          //and then reduce height of project
+        }
+
+        // span {
+        //   font-size: 12px;
+        //   font-weight: 600;
+        //   text-decoration: underline;
+        //   cursor: pointer;
+        // }
+
+        .right {
+          flex: 8;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+          cursor: pointer;
+          // background-color: yellow;
+
+          img {
+            width: 100%;
+            position: relative;
+            top: 2px;
+            // object-fit: cover;
+
+          }
+
+
+        }
+
+      }
+    }
+  }
+}
+a.arrow {
+  // position: relative;
+  // top: 45%;
+  position: absolute;
+  bottom: 0;
+
+  img {
+    width: 40px;
+    animation: arrowBlink 2s infinite;
+  }
+
+  @keyframes arrowBlink {
+    50% {
+      opacity: 0;
+    }
+
+  }
+}
