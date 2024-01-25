@@ -18,11 +18,11 @@ function App() {
       <div className="sections">
 
         <Intro />
-        {/* <Portfolio /> */}
-        <Works />
-        {/* <Worksog /> */}
-        {/* <Testimonials /> */}
-        {/* <Contact /> */}
+        <Portfolio />
+        {/* <Works /> */}
+        <Worksog />
+        <Testimonials />
+        <Contact />
 
       </div>
 
